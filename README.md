@@ -14,6 +14,13 @@ Seminars
 
  
 
+Deep Learning Compiler
+----------------------
+
+[List Contributed by Zihan Liu](Deep Learning Compiler/README.md)
+
+ 
+
 Past Architecture Papers
 ------------------------
 
