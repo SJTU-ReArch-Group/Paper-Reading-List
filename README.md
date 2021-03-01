@@ -10,7 +10,7 @@ Seminars
 
 | **Date** | **Paper Title** | **Presenter** | **Notes** |
 |----------|-----------------|---------------|-----------|
-| 2rd Week  | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
+| 2nd Week  | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
 
  
 
