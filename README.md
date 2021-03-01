@@ -17,7 +17,7 @@ Seminars
 Deep Learning Compiler
 ----------------------
 
-[List Contributed by Zihan Liu](DeepLearningCompiler/README.md)
+[List Contributed by Zihan Liu](DeepLearningCompiler/DLPaperList.md)
 
  
 
