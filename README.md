@@ -6,11 +6,11 @@ ReArch Group Paper Reading List
 Seminars
 --------
 
-### Fall 2021
+### Spring 2021
 
 | **Date** | **Paper Title** | **Presenter** | **Notes** |
 |----------|-----------------|---------------|-----------|
-| 2n Week  |                 | Cong Guo      |           |
+| 2rd Week  | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
 
  
 
