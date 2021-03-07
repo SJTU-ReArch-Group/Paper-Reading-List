@@ -8,9 +8,16 @@ Seminars
 
 ### Spring 2021
 
-| **Date** | **Paper Title** | **Presenter** | **Notes** |
-|----------|-----------------|---------------|-----------|
-| 2nd Week  | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
+| **Date** | **Paper Title**                                                           | **Presenter** | **Notes** |
+|----------|---------------------------------------------------------------------------|---------------|-----------|
+| 2nd Week | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
+
+ 
+
+DNN Architecture
+----------------
+
+[Link](Architecture/DNNAccelerator.md)
 
  
 
@@ -23,6 +30,7 @@ Deep Learning Compiler
 
 Past Architecture Papers
 ------------------------
+
 [List Contributed by Jingwen Leng](Architecture/PAST.md)
 
  
