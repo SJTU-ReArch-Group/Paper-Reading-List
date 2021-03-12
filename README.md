@@ -12,7 +12,7 @@ Seminars
 |----------|---------------------------------------------------------------------------|---------------|-----------|
 | 2nd Week | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
 | 3rd Week | [Toward Efficient Interactions between Python and Native Libraries](https://github.com/usyd-fsalab/ReadingList/blob/main/pdf/asplos21-paper586.pdf) | Yuxian Qiu | |
- 
+ | 4th Week | [EdgeBERT: Optimizing On-Chip Inference for Multi-Task NLP](https://arxiv.org/pdf/2011.14203.pdf) | Yue Guan | |
 
 DNN Architecture
 ----------------
