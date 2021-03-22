@@ -13,6 +13,7 @@ Seminars
 | 2nd Week | Training for Multi-resolution Inference Using Reusable Quantization Terms | Cong Guo      |           |
 | 3rd Week | [Toward Efficient Interactions between Python and Native Libraries](https://github.com/usyd-fsalab/ReadingList/blob/main/pdf/asplos21-paper586.pdf) | Yuxian Qiu | |
 | 4th Week | [SpAtten: Efficient Natural Language Processing](https://hanlab.mit.edu/projects/spatten/) | Yue Guan | |
+| 5th Week | [X-Stream: Edge-centric Graph Processing using Streaming Partitions](https://github.com/bindscha/x-stream) | Zhihui Zhang | |
 
 DNN Architecture
 ----------------
