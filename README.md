@@ -14,6 +14,7 @@ Seminars
 | 3rd Week | [Toward Efficient Interactions between Python and Native Libraries](https://github.com/usyd-fsalab/ReadingList/blob/main/pdf/asplos21-paper586.pdf) | Yuxian Qiu | |
 | 4th Week | [SpAtten: Efficient Natural Language Processing](https://hanlab.mit.edu/projects/spatten/) | Yue Guan | |
 | 5th Week | [X-Stream: Edge-centric Graph Processing using Streaming Partitions](https://github.com/bindscha/x-stream) | Zhihui Zhang | |
+| 6th Weak | [Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data](https://ieeexplore.ieee.org/document/9251965) | Zihan Liu | |
 
 DNN Architecture
 ----------------
