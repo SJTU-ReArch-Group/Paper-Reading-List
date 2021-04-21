@@ -15,6 +15,7 @@ Seminars
 | 4th Week | [SpAtten: Efficient Natural Language Processing](https://hanlab.mit.edu/projects/spatten/) | Yue Guan | |
 | 5th Week | [X-Stream: Edge-centric Graph Processing using Streaming Partitions](https://github.com/bindscha/x-stream) | Zhihui Zhang | |
 | 6th Weak | [Loop Nested Optimization, Polyhedral Model and Micro-2020 Best Paper (Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data)](https://ieeexplore.ieee.org/document/9251965) | Zihan Liu | [Slides](https://1drv.ms/p/s!AhjvDaw8hwGhnxs4_fr_F4Nazto9?e=7sEqQQ) |
+| 8th Weak | [Defensive Approximation: Securing CNNs using Approximate Computing](https://www.cs.ucr.edu/~nael/pubs/asplos21.pdf) | Yakai Wang | [Related Work](https://ieeexplore.ieee.org/document/6387646) |
 
 DNN Architecture
 ----------------
