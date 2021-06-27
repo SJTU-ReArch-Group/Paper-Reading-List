@@ -18,7 +18,7 @@ Seminars
 | 8th Week | [Defensive Approximation: Securing CNNs using Approximate Computing](https://www.cs.ucr.edu/~nael/pubs/asplos21.pdf) | Yakai Wang | [Related Work](https://ieeexplore.ieee.org/document/6387646) |
 | 13th Week | [Commutative Data Reordering: A New Technique to Reduce Data Movement Energy on Sparse Inference Workloads](https://ieeexplore.ieee.org/abstract/document/9138978/) | Yangjie Zhou | [Slides](https://jbox.sjtu.edu.cn/l/MFg8AR) |
 | 15th Week | [Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture](https://arxiv.org/abs/2103.03330) | Zhihui Zhang | VLDB 2021 under-review |
-| | | | |
+| 16th Week | [DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification](https://dynamicvit.ivg-research.xyz/) | Yue Guan | |
 
 
 DNN Architecture
