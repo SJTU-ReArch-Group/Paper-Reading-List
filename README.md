@@ -20,6 +20,11 @@ Seminars
 | 15th Week | [Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture](https://arxiv.org/abs/2103.03330) | Zhihui Zhang | VLDB 2021 under-review |
 | 16th Week | [DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification](https://dynamicvit.ivg-research.xyz/) | Yue Guan | |
 
+### Summer 2021
+
+| **Date** | **Paper Title**                                                           | **Presenter** | **Notes** |
+|----------|---------------------------------------------------------------------------|---------------|-----------|
+| 2nd Week | [AKG: automatic kernel generation for neural processing units using polyhedral transformations (PLDI 2021)](https://dl.acm.org/doi/pdf/10.1145/3453483.3454106) | Yuxian Qiu | [Slides](https://www.di.ens.fr/~zhaojie/pldi2021-presentation) |
 
 DNN Architecture
 ----------------
