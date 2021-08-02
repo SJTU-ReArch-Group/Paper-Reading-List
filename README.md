@@ -26,7 +26,9 @@ Seminars
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 07.14  | [AKG: automatic kernel generation for neural processing units using polyhedral transformations (PLDI 2021)](https://dl.acm.org/doi/pdf/10.1145/3453483.3454106) | Yuxian Qiu | [Slides](https://www.di.ens.fr/~zhaojie/pldi2021-presentation) |
+| 07.21  | Floating-Point Format and Quantization for Deep Learning Computation | Cong Guo  |  |
 | 07.28  | [P-OPT: Practical Optimal Cache Replacement for Graph Analytics](https://brandonlucia.com/pubs/POPT_HPCA21_CameraReady.pdf) | Yangjie Zhou | [Slides](https://jbox.sjtu.edu.cn/l/u15Q1m) |
+| 08.04  | [Rubik: A Hierarchical Architecture for Efficient Graph Neural Network Training](https://ieeexplore.ieee.org/abstract/document/9428002/) | Zhihui Zhang |  |
 
 
 DNN Architecture
