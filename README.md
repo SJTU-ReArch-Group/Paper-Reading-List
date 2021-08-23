@@ -29,6 +29,7 @@ Seminars
 | 07.21  | Floating-Point Format and Quantization for Deep Learning Computation | Cong Guo  |  |
 | 07.28  | [P-OPT: Practical Optimal Cache Replacement for Graph Analytics](https://brandonlucia.com/pubs/POPT_HPCA21_CameraReady.pdf) | Yangjie Zhou | [Slides](https://jbox.sjtu.edu.cn/l/u15Q1m) |
 | 08.04  | [Rubik: A Hierarchical Architecture for Efficient Graph Neural Network Training](https://ieeexplore.ieee.org/abstract/document/9428002/) | Zhihui Zhang |  |
+| 08.11  | [A Useful Tool CKA: Similarity of Neural Network Representations Revisited](https://arxiv.org/abs/1905.00414) and [It's application: Uncovering How Neural Network Representations Vary with Width and Depth](https://arxiv.org/abs/2010.15327) | Zhengyi Li | [Slides](https://jbox.sjtu.edu.cn/l/LFlrY5) |
 | 08.18  | [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/conference/osdi20/presentation/zheng) | Zihan Liu | [Slides](https://1drv.ms/p/s!AhjvDaw8hwGhtngBEMy48hSSgEEU?e=lnadKt) |
 
 
