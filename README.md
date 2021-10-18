@@ -32,6 +32,13 @@ Seminars
 | 08.11  | [A Useful Tool CKA: Similarity of Neural Network Representations Revisited](https://arxiv.org/abs/1905.00414) and [It's application: Uncovering How Neural Network Representations Vary with Width and Depth](https://arxiv.org/abs/2010.15327) | Zhengyi Li | [Slides](https://jbox.sjtu.edu.cn/l/LFlrY5) |
 | 08.18  | [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/conference/osdi20/presentation/zheng) | Zihan Liu | [Slides](https://1drv.ms/p/s!AhjvDaw8hwGhtngBEMy48hSSgEEU?e=lnadKt) |
 
+### Fall 2021
+
+|**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
+|--------|---------------------------------------------------------------------------|---------------|-----------|
+| 10.11  | Adaptive numeric type for DNN quantization | Cong Guo | |
+| 10.18  | [Compiling Graph Applications for GPUs with GraphIt](https://graphit-lang.org/index) | Yangjie Zhou | [Slides](https://intimeand.space/docs/CGO21-G2.pdf) |
+
 
 DNN Architecture
 ----------------
