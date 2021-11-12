@@ -39,6 +39,7 @@ Seminars
 | 10.11  | Adaptive numeric type for DNN quantization | Cong Guo | |
 | 10.18  | [Compiling Graph Applications for GPUs with GraphIt](https://graphit-lang.org/index) | Yangjie Zhou | [Slides](https://intimeand.space/docs/CGO21-G2.pdf) |
 | 11.01  | [TENET: A Framework for Modeling Tensor Dataflow Based on Relation-centric Notation](https://ieeexplore.ieee.org/document/9499903) | Zihan Liu | [Slides](https://1drv.ms/p/s!AhjvDaw8hwGhtxk_WtypKJSnhSW0?e=iqLEIh) |
+| 11.08  | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) | Zhengyi Li | [Slides (code: zdea)](https://pan.baidu.com/s/13dRMZzVwYV4PGcaCAVrZug) | 
 
 DNN Architecture
 ----------------
