@@ -16,9 +16,9 @@ Seminars
 | 03.22  | [X-Stream: Edge-centric Graph Processing using Streaming Partitions](https://github.com/bindscha/x-stream) | Zhihui Zhang | |
 | 03.29  | [Loop Nested Optimization, Polyhedral Model and Micro-2020 Best Paper (Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data)](https://ieeexplore.ieee.org/document/9251965) | Zihan Liu | [Slides](https://1drv.ms/p/s!AhjvDaw8hwGhnxs4_fr_F4Nazto9?e=7sEqQQ) |
 | 04.12  | [Defensive Approximation: Securing CNNs using Approximate Computing](https://www.cs.ucr.edu/~nael/pubs/asplos21.pdf) | Yakai Wang | [Related Work](https://ieeexplore.ieee.org/document/6387646) |
-| 05.17  | [Commutative Data Reordering: A New Technique to Reduce Data Movement Energy on Sparse Inference Workloads](https://ieeexplore.ieee.org/abstract/document/9138978/) | Yangjie Zhou | [Slides](https://jbox.sjtu.edu.cn/l/MFg8AR) |
-| 05.31  | [Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture](https://arxiv.org/abs/2103.03330) | Zhihui Zhang | VLDB 2021 under-review |
-| 06.07  | [DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification](https://dynamicvit.ivg-research.xyz/) | Yue Guan | |
+| 05.17  | [Commutative Data Reordering: A New Technique to Reduce Data Movement Energy on Sparse Inference Workloads](https://www.osti.gov/servlets/purl/1781776) | Yangjie Zhou | [ISCA 2020](https://jbox.sjtu.edu.cn/l/MFg8AR) |
+| 05.31  | [Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture](http://vldb.org/pvldb/vol14/p2087-min.pdf) | Zhihui Zhang | [VLDB 2021](https://www.davidmin.net/assets/slides/pyd.pdf) |
+| 06.07  | [DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification](https://proceedings.neurips.cc/paper/2021/file/747d3443e319a22747fbb873e8b2f9f2-Paper.pdf) | Yue Guan | [NeurIPS 2021](https://dynamicvit.ivg-research.xyz/) |
 
 
 ### Summer 2021
