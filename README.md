@@ -42,7 +42,7 @@ Seminars
 | 11.08  | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) | Zhengyi Li | [Slides (code: zdea)](https://pan.baidu.com/s/13dRMZzVwYV4PGcaCAVrZug) | 
 | 11.22  | [Dynamic Tensor Rematerialization](https://arxiv.org/abs/2006.09616)  <br /> [Checkmate: Breaking The Memory Wall with Optimal Tensor Rematerialization](https://arxiv.org/abs/2006.09616)| Yue Guan | [Slides](https://www.parasjain.com/projects/20checkmate/checkmate_mlsys_slides.pdf) <br />[Slides](https://marisa.moe/resources/DTR.pptx) | 
 | 11.29  | [GraphPulse: An Event-Driven Hardware Accelerator for Asynchronous Graph Processing](https://shafiur.me/publication/rahman-graphpulse-micro-2020/rahman-graphpulse-micro-2020.pdf)| Zhihui Zhang | [Presentation](https://www.youtube.com/watch?v=olhBDSa7xVE)| 
-
+| 12.13  | [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/10.1145/3341301.3359646)| Runzhe Chen | [Slides](https://jbox.sjtu.edu.cn/l/H1RivF)| 
 
 DNN Architecture
 ----------------
