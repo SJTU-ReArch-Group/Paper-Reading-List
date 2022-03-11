@@ -46,6 +46,11 @@ Seminars
 | 12.13  | [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/10.1145/3341301.3359646)| Runzhe Chen | [Slides](https://jbox.sjtu.edu.cn/l/H1RivF)| 
 | 12.20  | [Towards Scalable Distributed Training of Deep Learning on Public Cloud Clusters](https://proceedings.mlsys.org/paper/2021/file/8613985ec49eb8f757ae6439e879bb2a-Paper.pdf)| Yakai Wang | [Slides](https://jbox.sjtu.edu.cn/l/y18DmN)| 
 
+### Spring 2022
+
+|**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
+|--------|---------------------------------------------------------------------------|---------------|-----------|
+| 3.10  | Speculation Attack:  [Meltdown](https://www.usenix.org/conference/usenixsecurity18/presentation/lipp), [Spectre](https://ieeexplore.ieee.org/document/8835233), [Pinned-Loads](https://dl.acm.org/doi/10.1145/3503222.3507724) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/0ccG6xZVn7bYlTEwcL42c8UMw#Seminar) |
 DNN Architecture
 ----------------
 
