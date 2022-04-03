@@ -51,6 +51,7 @@ Seminars
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 3.10  | Speculation Attack:  [Meltdown](https://www.usenix.org/conference/usenixsecurity18/presentation/lipp), [Spectre](https://ieeexplore.ieee.org/document/8835233), [Pinned-Loads](https://dl.acm.org/doi/10.1145/3503222.3507724) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/0ccG6xZVn7bYlTEwcL42c8UMw#Seminar) |
+| 3.24 | SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute | Yue Guan | |
 | 3.31 | Fast and Efficient Tensor Compilation for Deep Learning | Yijia Diao | |
 
 DNN Architecture
