@@ -55,6 +55,7 @@ Seminars
 | 3.31 | Fast and Efficient Tensor Compilation for Deep Learning | Yijia Diao | |
 | 4.07 | Adaptable Register File Organization for Vector Processors | Zhihui Zhang | |
 | 4.14 | CORTEX: A COMPILER FOR RECURSIVE DEEP LEARNING MODELS | Yangjie Zhou | [Slides](https://slideslive.com/38952764) |
+| 4.21 | Zero-Knowledge Succinct Non-Interactive Argument of Knowledge | Shuwen Lu |[Slides](https://summerschool-croatia.cs.ru.nl/2017/slides/Zero%20Knowledge%20Succinct%20Arguments_an%20Introduction.pdf) |
 
 DNN Architecture
 ----------------
