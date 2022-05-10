@@ -56,6 +56,7 @@ Seminars
 | 4.07 | Adaptable Register File Organization for Vector Processors | Zhihui Zhang | |
 | 4.14 | CORTEX: A COMPILER FOR RECURSIVE DEEP LEARNING MODELS | Yangjie Zhou | [Slides](https://slideslive.com/38952764) |
 | 4.21 | Zero-Knowledge Succinct Non-Interactive Argument of Knowledge | Shuwen Lu |[Slides](https://summerschool-croatia.cs.ru.nl/2017/slides/Zero%20Knowledge%20Succinct%20Arguments_an%20Introduction.pdf) |
+| 5.05 | [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) | Runzhe Chen |[Slides](https://jbox.sjtu.edu.cn/l/U1PTfl) |
 
 DNN Architecture
 ----------------
