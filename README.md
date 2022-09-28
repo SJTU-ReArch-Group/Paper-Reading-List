@@ -58,6 +58,11 @@ Seminars
 | 4.21 | Zero-Knowledge Succinct Non-Interactive Argument of Knowledge | Shuwen Lu |[Slides](https://summerschool-croatia.cs.ru.nl/2017/slides/Zero%20Knowledge%20Succinct%20Arguments_an%20Introduction.pdf) |
 | 5.05 | [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) | Runzhe Chen |[Slides](https://jbox.sjtu.edu.cn/l/U1PTfl) |
 
+### Fall 2022
+|**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
+|--------|---------------------------------------------------------------------------|---------------|-----------|
+| 9.27  | [X-cache: a modular architecture for domain-specific caches](https://dl.acm.org/doi/10.1145/3470496.3527380) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/075L-zhbpPXbrS_En5ISDHUfA#Seminar-2022-09-27) |
+
 DNN Architecture
 ----------------
 
