@@ -62,6 +62,7 @@ Seminars
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 9.27  | [X-cache: a modular architecture for domain-specific caches](https://dl.acm.org/doi/10.1145/3470496.3527380) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/075L-zhbpPXbrS_En5ISDHUfA#Seminar-2022-09-27) |
+| 10.18 | Automatically Discovering  ML Optimizations                                | Yangjie Zhou  | [Slides](https://chips-compilers-mlsys-22.github.io/assets/slides/Zhihao_Jia_MLSys_2022-09-01.pdf) |
 
 DNN Architecture
 ----------------
