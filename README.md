@@ -61,6 +61,7 @@ Seminars
 ### Fall 2022
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
+| 9.20  | [ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization](https://arxiv.org/abs/2208.14286) | Cong Guo | [Slides](./Slides/ant_slides.pdf) |
 | 9.27  | [X-cache: a modular architecture for domain-specific caches](https://dl.acm.org/doi/10.1145/3470496.3527380) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/075L-zhbpPXbrS_En5ISDHUfA#Seminar-2022-09-27) |
 | 10.18 | Automatically Discovering  ML Optimizations                                | Yangjie Zhou  | [Slides](https://chips-compilers-mlsys-22.github.io/assets/slides/Zhihao_Jia_MLSys_2022-09-01.pdf) |
 
