@@ -52,7 +52,7 @@ Seminars
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 3.10  | Speculation Attack:  [Meltdown](https://www.usenix.org/conference/usenixsecurity18/presentation/lipp), [Spectre](https://ieeexplore.ieee.org/document/8835233), [Pinned-Loads](https://dl.acm.org/doi/10.1145/3503222.3507724) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/0ccG6xZVn7bYlTEwcL42c8UMw#Seminar) |
 | 3.24 | SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute | Yue Guan | |
-| 3.31 | Fast and Efficient Tensor Compilation for Deep Learning | Yijia Diao | |
+| 3.31 | ROLLER: Fast and Efficient Tensor Compilation for Deep Learning | Yijia Diao | [Link](https://www.usenix.org/conference/osdi22/presentation/zhu) |
 | 4.07 | Adaptable Register File Organization for Vector Processors | Zhihui Zhang | |
 | 4.14 | CORTEX: A COMPILER FOR RECURSIVE DEEP LEARNING MODELS | Yangjie Zhou | [Slides](https://slideslive.com/38952764) |
 | 4.21 | Zero-Knowledge Succinct Non-Interactive Argument of Knowledge | Shuwen Lu |[Slides](https://summerschool-croatia.cs.ru.nl/2017/slides/Zero%20Knowledge%20Succinct%20Arguments_an%20Introduction.pdf) |
@@ -65,6 +65,7 @@ Seminars
 | 9.27  | [X-cache: a modular architecture for domain-specific caches](https://dl.acm.org/doi/10.1145/3470496.3527380) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/075L-zhbpPXbrS_En5ISDHUfA#Seminar-2022-09-27) |
 | 10.18 | Automatically Discovering  ML Optimizations                                | Yangjie Zhou  | [Slides](https://chips-compilers-mlsys-22.github.io/assets/slides/Zhihao_Jia_MLSys_2022-09-01.pdf) |
 | 11.8 | Privacy Preserving Machine Learning--inference                                 | Zhengyi Li  | [Slides](./Slides/PPML.pptx) |
+| 11.15 | Dynamic Tensor Compilers | Yijia Diao | [Slides](./Slides/11.15-yijia.pdf) |
 
 DNN Architecture
 ----------------
