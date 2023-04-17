@@ -67,6 +67,12 @@ Seminars
 | 11.8 | Privacy Preserving Machine Learning--inference                                 | Zhengyi Li  | [Slides](./Slides/PPML.pptx) |
 | 11.15 | Dynamic Tensor Compilers | Yijia Diao | [Slides](./Slides/11.15-yijia.pdf) |
 
+### Spring 2023
+|**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
+|--------|---------------------------------------------------------------------------|---------------|-----------|
+| 3.30  | JUNO: Algorithm-Hardware Mapping Co-design for Efficient\\Approximate Nearest Neighbour Search in High Dimensional Space | Zihan Liu | |
+
+
 DNN Architecture
 ----------------
 
