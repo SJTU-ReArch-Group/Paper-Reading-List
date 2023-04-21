@@ -71,7 +71,7 @@ Seminars
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 3.30  | JUNO: Algorithm-Hardware Mapping Co-design for Efficient\\Approximate Nearest Neighbour Search in High Dimensional Space | Zihan Liu | |
-
+| 4.13 | SMG: Towards Efficient Execution and Adequate Encryption of Private DNN Inference via Secure Micro-Graph                                 | Zhengyi Li  | [Slides](./Slides/Zhengyi_SecGraph.pptx) |
 
 DNN Architecture
 ----------------
