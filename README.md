@@ -71,14 +71,7 @@ Seminars
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 3.30  | JUNO: Algorithm-Hardware Mapping Co-design for Efficient\\Approximate Nearest Neighbour Search in High Dimensional Space | Zihan Liu | |
-| 4.6 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED](https://arxiv.org/abs/2210.17323) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [Offsite-Tuning: Transfer Learning without Full Model](https://arxiv.org/abs/2302.04870) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.6 | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
+| 4.6 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339); [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438); [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580); [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED](https://arxiv.org/abs/2210.17323); [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774); [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602); [Offsite-Tuning: Transfer Learning without Full Model](https://arxiv.org/abs/2302.04870); [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
 | 4.13 | SMG: Towards Efficient Execution and Adequate Encryption of Private DNN Inference via Secure Micro-Graph                                 | Zhengyi Li  | [Slides](./Slides/Zhengyi_SecGraph.pptx) |
 
 DNN Architecture
