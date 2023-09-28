@@ -77,6 +77,11 @@ Seminars
 | 5.11 | Multi-Tenant DNN Inference: Spatial GPU Sharing | Yijia Diao  | [Slides](./Slides/23.05.11-yijia.pdf) |
 | 5.25 | [Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion](https://ieeexplore.ieee.org/document/10071018) | Yangjie Zhou | [TVMConf Video](https://www.youtube.com/watch?v=VtWqP_wQX9U) |
 
+### Fall 2023
+|**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
+|--------|---------------------------------------------------------------------------|---------------|-----------|
+| 9.21 | GPU Warp Scheduling and Control Code | Weiming Hu | [Slides](./Slides/23.09.21-weiming.pdf) |
+
 DNN Architecture
 ----------------
 
