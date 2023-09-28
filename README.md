@@ -81,7 +81,7 @@ Seminars
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 9.21 | GPU Warp Scheduling and Control Code | Weiming Hu | [Slides](./Slides/23.09.21-weiming.pdf) |
-| 9.28 | Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | Yue Guan | [Slides](./Slides/23.09.28-yguan.pdf) |
+| 9.28 | [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity](https://arxiv.org/abs/2309.10285) | Yue Guan | [Slides](./Slides/23.09.28-yguan.pdf) |
 
 DNN Architecture
 ----------------
