@@ -82,6 +82,7 @@ Seminars
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 9.21 | GPU Warp Scheduling and Control Code | Weiming Hu | [Slides](./Slides/23.09.21-weiming.pdf) |
 | 9.28 | [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity](https://arxiv.org/abs/2309.10285) | Yue Guan | [Slides](./Slides/23.09.28-yguan.pdf) |
+| 10.12 | [Shared SIMD unit: Occamy](https://dl.acm.org/doi/10.1145/3582016.3582046), Two Out-of-Order Commit CPU: [NOREBA](https://dl.acm.org/doi/pdf/10.1145/3445814.3446726) and [Orinoco](https://dl.acm.org/doi/10.1145/3579371.3589046) | Zihan Liu | [Slides](./Slides/23.10.28-zhliu.key) |
 
 DNN Architecture
 ----------------
