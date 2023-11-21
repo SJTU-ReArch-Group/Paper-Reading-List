@@ -107,6 +107,12 @@ Past Architecture Papers
 
  
 
+MoE Related Papers
+------------------------
+
+[List Contributed by Shuwen Lu](MoE/MoE.md)
+
+
 Reading List From Other Groups
 ------------------------------
 
