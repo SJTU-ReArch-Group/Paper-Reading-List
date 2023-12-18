@@ -85,6 +85,7 @@ Seminars
 | 10.12 | [Shared SIMD unit: Occamy](https://dl.acm.org/doi/10.1145/3582016.3582046), Two Out-of-Order Commit CPU: [NOREBA](https://dl.acm.org/doi/pdf/10.1145/3445814.3446726) and [Orinoco](https://dl.acm.org/doi/10.1145/3579371.3589046) | Zihan Liu | [Slides](./Slides/23.10.28-zhliu.key) |
 | 10.19 | Multitasking on GPU: Preemption | Yijia Diao | [Slides](./Slides/23.10.19-yijia.pdf) |
 | 11.09 | [Efficient large-scale language model training on GPU clusters using megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209); [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](http://arxiv.org/abs/1910.02054); [ZeRO-Offload: Democratizing Billion-Scale Model Training](http://arxiv.org/abs/2101.06840); [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](http://arxiv.org/abs/2104.07857) | Jiale Xu | [Slides](./Slides/23.11.9-jlxu.pptx) |
+| 12.14 |[Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192);[SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification](https://arxiv.org/abs/2305.09781);[LLMCad: Fast and Scalable On-device Large Language Model Inference](https://arxiv.org/abs/2309.04255)|Changming Yu|[Slides](./Slides/23.12.14-changming.pdf)|
 
 DNN Architecture
 ----------------
