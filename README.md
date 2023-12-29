@@ -89,6 +89,9 @@ Seminars
 | 12.07 |[WaveScalar](https://ieeexplore.ieee.org/document/1253203);[Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://ieeexplore.ieee.org/document/9138986)|Gonglin Xu|[Slides](./Slides/12.07-gonglin.pptx)|
 | 12.14 |[Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192);[SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification](https://arxiv.org/abs/2305.09781);[LLMCad: Fast and Scalable On-device Large Language Model Inference](https://arxiv.org/abs/2309.04255)|Changming Yu|[Slides](./Slides/23.12.14-changming.pdf)|
 
+| 12.28 |[A Framework for Fine-Grained Synchronization of Dependent GPU Kernels](https://arxiv.org/abs/2305.13450);[Fast Fine-Grained Global Synchronization on GPUs](https://dl.acm.org/doi/abs/10.1145/3297858.3304055);[AutoScratch: ML-Optimized Cache Management for Inference-Oriented GPUs](https://proceedings.mlsys.org/paper_files/paper/2023/hash/627b5f83ffa130fb33cb03dafb47a630-Abstract-mlsys2023.html)|Ziyu Huang|[Slides](./Slides/12.29-ziyu_huang.pdf)|
+
+
 DNN Architecture
 ----------------
 
