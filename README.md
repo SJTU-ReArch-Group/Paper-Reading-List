@@ -86,6 +86,7 @@ Seminars
 | 10.19 | Multitasking on GPU: Preemption | Yijia Diao | [Slides](./Slides/23.10.19-yijia.pdf) |
 | 10.26 | [SecretFlow-SPU: A Performant and User-Friendly Framework for Privacy-Preserving Machine Learning](https://www.usenix.org/conference/atc23/presentation/ma) | Zhengyi Li | [Slides](https://www.usenix.org/system/files/atc23_slides_ma.pdf) |
 | 11.09 | [Efficient large-scale language model training on GPU clusters using megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209); [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](http://arxiv.org/abs/1910.02054); [ZeRO-Offload: Democratizing Billion-Scale Model Training](http://arxiv.org/abs/2101.06840); [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](http://arxiv.org/abs/2104.07857) | Jiale Xu | [Slides](./Slides/23.11.9-jlxu.pptx) |
+| 12.07 |[WaveScalar](https://ieeexplore.ieee.org/document/1253203);[Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://ieeexplore.ieee.org/document/9138986)|Gonglin Xu|[Slides](./Slides/12.07-塨gonglin.pptx)|
 | 12.14 |[Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192);[SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification](https://arxiv.org/abs/2305.09781);[LLMCad: Fast and Scalable On-device Large Language Model Inference](https://arxiv.org/abs/2309.04255)|Changming Yu|[Slides](./Slides/23.12.14-changming.pdf)|
 
 DNN Architecture
