@@ -96,6 +96,7 @@ Seminars
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | 03.21 | Transparent GPU Sharing in Container Clouds for Deep Learning Workloads | Yijia Diao | [Link](https://www.usenix.org/conference/nsdi23/presentation/wu) |
+| 05.09 | [8-bit Transformer Inference and Fine-tuning for Edge Accelerators](https://dl.acm.org/doi/10.1145/3620666.3651368) | Weiming Hu | [Slide](./Slides/2024.05.09-weiming.pdf)                     |
 
 
 
