@@ -99,7 +99,11 @@ Seminars
 | 03.28 | DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving | Shuwen Lu | [Slide](./Slides/2024-03-28-swlu-DistServe.pptx)              |
 | 05.09 | [8-bit Transformer Inference and Fine-tuning for Edge Accelerators](https://dl.acm.org/doi/10.1145/3620666.3651368) | Weiming Hu | [Slide](./Slides/2024.05.09-weiming.pdf)                     |
 
+### Fall 2024
 
+| Date  | Paper Title                                                  | Presenter  | Notes                                                        |
+| ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| 11.15 | Opensora architecture and its computational reuse | Haosong Liu | [Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.11.18-HaosongLiu-OpenSora%E5%8F%8A%E5%85%B6%E8%AE%A1%E7%AE%97%E5%A4%8D%E7%94%A8.pptx) |
 
 DNN Architecture
 ----------------
