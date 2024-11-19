@@ -137,7 +137,7 @@ MoE Related Papers
 
 ## Quantization, Data Type, Compression, Acceleration
 
-[List Contributed by Weiming Hu](Quantization, Data Type, Compression, Acceleration/Quantization_paper_list.md)
+[List Contributed by Weiming Hu](Quantization-DataType-Compression-Acceleration/Quantization_paper_list.md)
 
 
 Reading List From Other Groups
