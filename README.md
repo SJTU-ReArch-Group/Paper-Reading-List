@@ -103,6 +103,7 @@ Seminars
 
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| 8.15  | Accelerating mixture of experts model Inference              | Shuwen Lu  | [Slides](./Slides/24.8.15-swlu.pptx)
 | 11.15 | Opensora architecture and its computational reuse | Haosong Liu | [Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.11.18-HaosongLiu-OpenSora%E5%8F%8A%E5%85%B6%E8%AE%A1%E7%AE%97%E5%A4%8D%E7%94%A8.pptx) |
 
 DNN Architecture
