@@ -135,6 +135,10 @@ MoE Related Papers
 
 [List Contributed by Shuwen Lu](MoE/MoE.md)
 
+## Quantization, Data Type, Compression, Acceleration
+
+[List Contributed by Weiming Hu](Quantization, Data Type, Compression, Acceleration/Quantization_paper_list.md)
+
 
 Reading List From Other Groups
 ------------------------------
