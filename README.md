@@ -64,7 +64,7 @@ Seminars
 | 9.20  | [ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization](https://arxiv.org/abs/2208.14286) | Cong Guo | [Slides](./Slides/ant_slides.pdf) |
 | 9.27  | [X-cache: a modular architecture for domain-specific caches](https://dl.acm.org/doi/10.1145/3470496.3527380) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/075L-zhbpPXbrS_En5ISDHUfA#Seminar-2022-09-27) |
 | 10.18 | Automatically Discovering  ML Optimizations                                | Yangjie Zhou  | [Slides](https://chips-compilers-mlsys-22.github.io/assets/slides/Zhihao_Jia_MLSys_2022-09-01.pdf) |
-| 11.8 | Privacy Preserving Machine Learning--inference                                 | Zhengyi Li  | [Slides](./Slides/PPML.pptx) |
+| 11.8 | Privacy Preserving Machine Learning--inference                                 | Zhengyi Li  | [Slides](./Slides/22.11.08-zyli-PPML.pptx) |
 | 11.15 | Dynamic Tensor Compilers | Yijia Diao | [Slides](./Slides/11.15-yijia.pdf) |
 
 ### Spring 2023
@@ -72,7 +72,7 @@ Seminars
 |--------|---------------------------------------------------------------------------|---------------|-----------|
 | 3.30  | JUNO: Algorithm-Hardware Mapping Co-design for Efficient\\Approximate Nearest Neighbour Search in High Dimensional Space | Zihan Liu | |
 | 4.6 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339); [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438); [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580); [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED](https://arxiv.org/abs/2210.17323); [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774); [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602); [Offsite-Tuning: Transfer Learning without Full Model](https://arxiv.org/abs/2302.04870); [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | Jiaming Tang |[Slides](./Slides/2023.4.6-jiaming.pdf) |
-| 4.13 | SMG: Towards Efficient Execution and Adequate Encryption of Private DNN Inference via Secure Micro-Graph                                 | Zhengyi Li  | [Slides](./Slides/Zhengyi_SecGraph.pptx) |
+| 4.13 | SMG: Towards Efficient Execution and Adequate Encryption of Private DNN Inference via Secure Micro-Graph                                 | Zhengyi Li  | [Slides](./Slides/23.04.13-zyli-SecGraph.pptx) |
 | 5.04 | FlexGen and FlashAttention | Yue Guan  | [Slides](./Slides/23.05.04-yueguan.pptx) |
 | 5.11 | Multi-Tenant DNN Inference: Spatial GPU Sharing | Yijia Diao  | [Slides](./Slides/23.05.11-yijia.pdf) |
 | 5.25 | [Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion](https://ieeexplore.ieee.org/document/10071018) | Yangjie Zhou | [TVMConf Video](https://www.youtube.com/watch?v=VtWqP_wQX9U) |
@@ -95,6 +95,7 @@ Seminars
 
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| 03.14 | LLM Attack and Defense | Zhengyi Li | [Slides](./Slides/24.03.14-zyli-LLM-attack-and-defense.pptx) |
 | 03.21 | Transparent GPU Sharing in Container Clouds for Deep Learning Workloads | Yijia Diao | [Link](https://www.usenix.org/conference/nsdi23/presentation/wu) |
 | 03.28 | DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving | Shuwen Lu | [Slide](./Slides/2024-03-28-swlu-DistServe.pptx)              |
 | 05.09 | [8-bit Transformer Inference and Fine-tuning for Edge Accelerators](https://dl.acm.org/doi/10.1145/3620666.3651368) | Weiming Hu | [Slide](./Slides/2024.05.09-weiming.pdf)                     |
@@ -103,6 +104,7 @@ Seminars
 
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| 07.26  | TEE-SGX Introduction           | Zhengyi Li  | [Slides](./Slides/24.07.26-zyli-TEE-SGX-introduction.pptx)
 | 8.15  | Accelerating mixture of experts model Inference              | Shuwen Lu  | [Slides](./Slides/24.8.15-swlu.pptx)
 | 11.15 | Opensora architecture and its computational reuse | Haosong Liu | [Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.11.18-HaosongLiu-OpenSora%E5%8F%8A%E5%85%B6%E8%AE%A1%E7%AE%97%E5%A4%8D%E7%94%A8.pptx) |
 
