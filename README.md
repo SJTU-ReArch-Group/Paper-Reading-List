@@ -111,6 +111,9 @@ Seminars
 | 11.15 | Opensora architecture and its computational reuse | Haosong Liu | [Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.11.18-HaosongLiu-OpenSora%E5%8F%8A%E5%85%B6%E8%AE%A1%E7%AE%97%E5%A4%8D%E7%94%A8.pptx) |
 | 11.22 | LLM Quantization| Wenxuan Miao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/11.22(1)_20241129122500.pdf)|
 | 11.29 | Survey: Large-scale 3DGS| Zheng Liu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24%E5%B9%B411%E6%9C%8829%E6%97%A5%20%E7%BB%84%E4%BC%9A%E6%B1%87%E6%8A%A5%20large-scale%203DGS_20241209160214.pdf)|
+| 12.05 | Enhance Efficiency: 3D Gaussian Splatting for Speed and Memory Optimization| Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar1206_20241209162002.pdf)|
+
+
 
 
 
