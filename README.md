@@ -109,6 +109,7 @@ Seminars
 | 08.15  | Accelerating mixture of experts model Inference              | Shuwen Lu  | [Slides](./Slides/24.8.15-swlu.pptx)|
 | 08.22  | Accelerating Stable Diffusion-based Video Generation |Yuge Cheng|[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/AcceleratDiT-based_Video_Gen_ChengYuge_0822.pdf)|
 | 09.05 | TCP: A Tensor Contraction Processor for AI Workloads | Weiming Hu | [Slides](./Slides/2024.09.05-weiming.pdf) |
+| 10.11 | dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving | Haoyan Zhang | [Slides](./Slides/24.10.11-hyzhang.pptx) |
 | 10.18 | Dataflow Chips and a Compiler | Renyang Guan | [Slides](./Slides/24.10.18.pdf) |
 | 11.15 | Opensora architecture and its computational reuse | Haosong Liu | [Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.11.18-HaosongLiu-OpenSora%E5%8F%8A%E5%85%B6%E8%AE%A1%E7%AE%97%E5%A4%8D%E7%94%A8.pptx) |
 | 11.22 | LLM Quantization| Wenxuan Miao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/11.22(1)_20241129122500.pdf)|
