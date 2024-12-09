@@ -105,10 +105,16 @@ Seminars
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | 07.26  | TEE-SGX Introduction           | Zhengyi Li  | [Slides](./Slides/24.07.26-zyli-TEE-SGX-introduction.pptx)|
-| 8.15  | Accelerating mixture of experts model Inference              | Shuwen Lu  | [Slides](./Slides/24.8.15-swlu.pptx)|
+| 08.15  | Accelerating mixture of experts model Inference              | Shuwen Lu  | [Slides](./Slides/24.8.15-swlu.pptx)|
+| 08.22  | Accelerating Stable Diffusion-based Video Generation |Yuge Cheng|[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/AcceleratDiT-based_Video_Gen_ChengYuge_0822.pdf)|
 | 09.05 | TCP: A Tensor Contraction Processor for AI Workloads | Weiming Hu | [Slides](./Slides/2024.09.05-weiming.pdf) |
 | 11.15 | Opensora architecture and its computational reuse | Haosong Liu | [Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.11.18-HaosongLiu-OpenSora%E5%8F%8A%E5%85%B6%E8%AE%A1%E7%AE%97%E5%A4%8D%E7%94%A8.pptx) |
 | 11.22 | LLM Quantization| Wenxuan Miao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/11.22(1)_20241129122500.pdf)|
+| 11.29 | Survey: Large-scale 3DGS| Zheng Liu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24%E5%B9%B411%E6%9C%8829%E6%97%A5%20%E7%BB%84%E4%BC%9A%E6%B1%87%E6%8A%A5%20large-scale%203DGS_20241209160214.pdf)|
+| 12.05 | Enhance Efficiency: 3D Gaussian Splatting for Speed and Memory Optimization| Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar1206_20241209162002.pdf)|
+
+
+
 
 
 DNN Architecture
