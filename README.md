@@ -116,6 +116,7 @@ Seminars
 | 11.22 | LLM Quantization| Wenxuan Miao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/11.22(1)_20241129122500.pdf)|
 | 11.29 | Survey: Large-scale 3DGS| Zheng Liu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24%E5%B9%B411%E6%9C%8829%E6%97%A5%20%E7%BB%84%E4%BC%9A%E6%B1%87%E6%8A%A5%20large-scale%203DGS_20241209160214.pdf)|
 | 12.05 | Enhance Efficiency: 3D Gaussian Splatting for Speed and Memory Optimization| Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar1206_20241209162002.pdf)|
+| 12.13 | Stealing Part of a Production Language Model | Zhengyi Li |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.12.13-zyli-stealing_pa.rt_of_llm.pptx)|
 
 
 
