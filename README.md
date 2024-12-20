@@ -65,7 +65,7 @@ Seminars
 | 9.27  | [X-cache: a modular architecture for domain-specific caches](https://dl.acm.org/doi/10.1145/3470496.3527380) | Zihan Liu | [Slides](https://www.icloud.com.cn/keynote/075L-zhbpPXbrS_En5ISDHUfA#Seminar-2022-09-27) |
 | 10.18 | Automatically Discovering  ML Optimizations                                | Yangjie Zhou  | [Slides](https://chips-compilers-mlsys-22.github.io/assets/slides/Zhihao_Jia_MLSys_2022-09-01.pdf) |
 | 11.8 | Privacy Preserving Machine Learning--inference                                 | Zhengyi Li  | [Slides](./Slides/22.11.08-zyli-PPML.pptx) |
-| 11.15 | Dynamic Tensor Compilers | Yijia Diao | [Slides](./Slides/11.15-yijia.pdf) |
+| 11.15 | Dynamic Tensor Compilers | Yijia Diao | [Slides](./Slides/22.11.15-yijia.pdf) |
 
 ### Spring 2023
 |**Date**| **Paper Title**                                                           | **Presenter** | **Notes** |
@@ -117,6 +117,8 @@ Seminars
 | 11.29 | Survey: Large-scale 3DGS| Zheng Liu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24%E5%B9%B411%E6%9C%8829%E6%97%A5%20%E7%BB%84%E4%BC%9A%E6%B1%87%E6%8A%A5%20large-scale%203DGS_20241209160214.pdf)|
 | 12.05 | Enhance Efficiency: 3D Gaussian Splatting for Speed and Memory Optimization| Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar1206_20241209162002.pdf)|
 | 12.13 | Stealing Part of a Production Language Model | Zhengyi Li |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.12.13-zyli-stealing_pa.rt_of_llm.pptx)|
+| 12.20 | Communication-Compute Co-Optimization in Distributed Training | Yijia Diao |[Slides](https://1drv.ms/b/c/1515f4cb2fd61a52/EUsuj5eLXGVEulB87I85-CQBvhQFYX_uDcq0sMl-wT1Z_w)|
+
 
 
 
