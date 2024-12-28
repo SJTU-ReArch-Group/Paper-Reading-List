@@ -118,6 +118,7 @@ Seminars
 | 12.05 | Enhance Efficiency: 3D Gaussian Splatting for Speed and Memory Optimization| Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar1206_20241209162002.pdf)|
 | 12.13 | Stealing Part of a Production Language Model | Zhengyi Li |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.12.13-zyli-stealing_pa.rt_of_llm.pptx)|
 | 12.20 | Communication-Compute Co-Optimization in Distributed Training | Yijia Diao |[Slides](https://1drv.ms/b/c/1515f4cb2fd61a52/EUsuj5eLXGVEulB87I85-CQBvhQFYX_uDcq0sMl-wT1Z_w)|
+| 12.27 | Byte Latent Transformer: Patches Scale Better Than Tokens | Shuyong Bao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/blt_20241228203002.pdf)|
 
 
 
