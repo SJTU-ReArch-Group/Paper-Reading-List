@@ -119,7 +119,7 @@ Seminars
 | 12.13 | Stealing Part of a Production Language Model | Zhengyi Li |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/24.12.13-zyli-stealing_pa.rt_of_llm.pptx)|
 | 12.20 | Communication-Compute Co-Optimization in Distributed Training | Yijia Diao |[Slides](https://1drv.ms/b/c/1515f4cb2fd61a52/EUsuj5eLXGVEulB87I85-CQBvhQFYX_uDcq0sMl-wT1Z_w)|
 | 12.27 | Byte Latent Transformer: Patches Scale Better Than Tokens | Shuyong Bao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/blt_20241228203002.pdf)|
-
+| 01.03 | Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators | Renyang Guan |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/2025.1.3-renyang.pdf)|
 
 
 
