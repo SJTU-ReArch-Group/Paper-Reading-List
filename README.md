@@ -123,7 +123,8 @@ Seminars
 
 ### Spring 2025
 
-
+| Date  | Paper Title                                                  | Presenter  | Notes                                                        |
+| ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | 02.28 | Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion | Ziyu Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/0228%20-%20%E5%89%AF%E6%9C%AC.pdf)|
 
 
