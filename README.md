@@ -121,8 +121,10 @@ Seminars
 | 12.27 | Byte Latent Transformer: Patches Scale Better Than Tokens | Shuyong Bao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/blt_20241228203002.pdf)|
 | 01.03 | Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators | Renyang Guan |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/2025.1.3-renyang.pdf)|
 
+### Spring 2025
 
 
+| 02.28 | Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion | Ziyu Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/0228%20-%20%E5%89%AF%E6%9C%AC.pdf)|
 
 
 DNN Architecture
