@@ -126,6 +126,9 @@ Seminars
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | 02.28 | Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion | Ziyu Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/0228%20-%20%E5%89%AF%E6%9C%AC.pdf)|
+| 03.21 | Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | Xing Ma |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/%E7%BB%84%E4%BC%9A3_20.pdf)|
+| 03.28 | Taming Load Balancing in Distributed LLM Training | Jiale Xu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Taming%20Load%20Balancing%20in%20Distributed%20LLM%20Training.pdf)|
+
 
 
 DNN Architecture
