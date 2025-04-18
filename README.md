@@ -125,7 +125,7 @@ Seminars
 
 | Date  | Paper Title                                                  | Presenter  | Notes                                                        |
 | ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-| 01.17 | HybridFlow: A Flexible and Efficient RLHF Framework | Gonglin Xu |[Slides](./Sildes/2025-1-17.pdf)|
+| 01.17 | HybridFlow: A Flexible and Efficient RLHF Framework | Gonglin Xu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/2025-1-17.pdf)|
 | 02.28 | Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion | Ziyu Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/0228%20-%20%E5%89%AF%E6%9C%AC.pdf)|
 | 03.14 | Auto-Vectorization in Compilers: Leveraging SIMD for HighPerformance Computing | Shihan Fang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/3_14%20Shihan%20Faang.pdf)|
 | 03.21 | Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | Xing Ma |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/%E7%BB%84%E4%BC%9A3_20.pdf)|
