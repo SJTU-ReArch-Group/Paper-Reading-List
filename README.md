@@ -132,6 +132,7 @@ Seminars
 | 03.28 | Taming Load Balancing in Distributed LLM Training | Jiale Xu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Taming%20Load%20Balancing%20in%20Distributed%20LLM%20Training.pdf)|
 | 04.11 | SparseAttn for Video Generation | Yulin Sun |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/ReArch%E7%BB%84%E4%BC%9A0411.pdf)|
 | 04.18 | Towards End-to-End Optimization of LLM-based Applications with Ayo | Jiawei Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Ayo.pdf)|
+| 04.25 | FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models | Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Xiaotong%20Huang.pdf)|
 
 
 
