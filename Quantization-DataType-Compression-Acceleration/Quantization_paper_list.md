@@ -31,7 +31,9 @@ Contributed by Weiming Hu
 
 | Conf.    | **Title**                                                    | **Key Words**                 |
 | -------- | ------------------------------------------------------------ | ----------------------------- |
-| arXiv'24 | Nanoscaling Floating-Point (NxFP): NanoMantissa, Adaptive Microexponents, and Code Recycling for Direct-Cast Compression of Large Language Models |                               |
+| arXiv'25 | SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training | MXFP, Attention               |
+| arXiv'25 | FGMP: Fine-Grained Mixed-Precision Weight and Activation Quantization for Hardware-Accelerated LLM Inference | MXFP, NVFP                    |
+| arXiv'24 | Nanoscaling Floating-Point (NxFP): NanoMantissa, Adaptive Microexponents, and Code Recycling for Direct-Cast Compression of Large Language Models | MXFP                          |
 | arXiv'24 | AMXFP4: Taming Activation Outliers with Asymmetric Microscaling Floating-Point for 4-bit LLM Inference | MXFP, Asymmetric quantization |
 | arXiv'24 | MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization | MXINT, MXFP, outlier          |
 | arXiv'24 | Post Training Quantization of Large Language Models with Microscaling Formats | MXINT                         |
