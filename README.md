@@ -121,6 +121,18 @@ Seminars
 | 12.27 | Byte Latent Transformer: Patches Scale Better Than Tokens | Shuyong Bao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/blt_20241228203002.pdf)|
 | 01.03 | Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators | Renyang Guan |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/2025.1.3-renyang.pdf)|
 
+### Spring 2025
+
+| Date  | Paper Title                                                  | Presenter  | Notes                                                        |
+| ----- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| 01.17 | HybridFlow: A Flexible and Efficient RLHF Framework | Gonglin Xu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/2025-1-17.pdf)|
+| 02.28 | Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion | Ziyu Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/0228%20-%20%E5%89%AF%E6%9C%AC.pdf)|
+| 03.14 | Auto-Vectorization in Compilers: Leveraging SIMD for HighPerformance Computing | Shihan Fang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/3_14%20Shihan%20Faang.pdf)|
+| 03.21 | Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | Xing Ma |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/%E7%BB%84%E4%BC%9A3_20.pdf)|
+| 03.28 | Taming Load Balancing in Distributed LLM Training | Jiale Xu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Taming%20Load%20Balancing%20in%20Distributed%20LLM%20Training.pdf)|
+| 04.11 | SparseAttn for Video Generation | Yulin Sun |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/ReArch%E7%BB%84%E4%BC%9A0411.pdf)|
+| 04.18 | Towards End-to-End Optimization of LLM-based Applications with Ayo | Jiawei Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Ayo.pdf)|
+| 04.25 | FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models | Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Xiaotong%20Huang.pdf)|
 
 
 
