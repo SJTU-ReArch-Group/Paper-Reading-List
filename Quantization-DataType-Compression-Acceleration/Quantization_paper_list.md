@@ -45,3 +45,38 @@ Contributed by Weiming Hu
 | HPCA'21  | FAST: DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding | BFP training                  |
 | NIPS'20  | Pushing the Limits of Narrow Precision Inferencing at Cloud Scale with Microsoft Floating Point | MSFP (BFP)                    |
 
+#### Quantization Accelerator / Arch.
+
+| Conf.      | **Title**                                                    | **Key Words**       |
+| ---------- | ------------------------------------------------------------ | ------------------- |
+| ArXiv'2025 | BBAL: A Bidirectional Block Floating Point-Based Quantisation Accelerator for Large Language Models |                     |
+| ArXiv'2025 | FGMP: Fine-Grained Mixed-Precision Weight and Activation Quantization for Hardware-Accelerated LLM Inference |                     |
+| ISCA'2025  | Oaken: Fast and Efficient LLM Serving with Online-Offline Hybrid KV Cache Quantization |                     |
+| ISCA'2025  | LUT Tensor Core: Lookup Table Enables Efficient Low-Bit LLM Inference Acceleration |                     |
+| ISCA'2025  | MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization |                     |
+| HPCA'2025  | LUT-DLA: Lookup Table as Efficient Extreme Low-Bit Deep Learning Accelerator |                     |
+| HPCA'2025  | BitMoD: Bit-serial Mixture-of-Datatype LLM Acceleration      |                     |
+| HPCA'2025  | Anda: Unlocking Efficient LLM Inference with a Variable-Length Grouped Activation Data Format |                     |
+| HPCA'2025  | Panacea: Novel DNN Accelerator using Accuracy-Preserving Asymmetric Quantization and Energy-Saving Bit-Slice Sparsity |                     |
+| HPCA'2025  | M-ANT: Efficient Low-bit Group Quantization for LLMs via Mathematically Adaptive Numerical Type |                     |
+| DATE'2025  | SBQ: Exploiting Significant Bits for Efficient and Accurate Post-Training DNN Quantization |                     |
+| DATE'2025  | FineQ: Software-Hardware Co-Design for Low-Bit Fine-Grained Mixed-Precision Quantization of LLMs |                     |
+| ISCA'2024  | Tender: Accelerating Large Language Models via Tensor Decomposition and Runtime Requantization |                     |
+| ISCA'2024  | Cambricon-D: Full-Network Differential Acceleration for Diffusion Models |                     |
+| HPCA'2024  | SPARK: Scalable and Precision-Aware Acceleration of Neural Networks via Efficient Encoding |                     |
+| HPCA'2024  | FIGNA: Integer Unit-Based Accelerator Design for FP-INT GEMM Preserving Numerical Accuracy |                     |
+| DAC'2024   | OPAL: Outlier-Preserved Microscaling Quantization A ccelerator for Generative Large Language Models |                     |
+| DAC'2024   | Oltron: Algorithm-Hardware Co-design for Outlier-Aware Quantization of LLMs with Inter-/Intra-Layer Adaptation |                     |
+| DAC'24     | Algorithm-Hardware Co-Design of Distribution-Aware Logarithmic-Posit Encodings for Efficient DNN Inference | Posit               |
+| ICCD'2024  | AirGun: Adaptive Granularity Quantization for Accelerating Large Language Models |                     |
+| MICRO'2024 | Cambricon-LLM: A Chiplet-Based Hybrid Architecture for On-Device Inference of 70B LLM |                     |
+| ICLR'2024  | LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models |                     |
+| ArXiv'2024 | MixPE: Quantization and Hardware Co-design for Efficient LLM Inference |                     |
+| ISCA'2023  | OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization |                     |
+| ISCA'2022  | Mokey: Enabling Narrow Fixed-Point Inference for Out-of-the-Box Floating-Point Transformer Models |                     |
+| HPCA'22    | FAST: DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding | Use BFP in training |
+| MICRO'2022 | ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization |                     |
+| ISCA'2021  | Cambricon-Q: A Hybrid Architecture for Efficient Training    |                     |
+| MICRO'2020 | GOBO: Quantizing Attention-Based NLP Models for Low Latency and Energy Efficient Inference |                     |
+| ISCA'2020  | DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration |                     |
+| DAC'2019   | BiScaled-DNN: Quantizing Long-tailed Datastructures with Two Scale Factors for Deep Neural Networks |                     |
