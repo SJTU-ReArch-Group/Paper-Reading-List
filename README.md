@@ -133,6 +133,9 @@ Seminars
 | 04.11 | SparseAttn for Video Generation | Yulin Sun |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/ReArch%E7%BB%84%E4%BC%9A0411.pdf)|
 | 04.18 | Towards End-to-End Optimization of LLM-based Applications with Ayo | Jiawei Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Ayo.pdf)|
 | 04.25 | FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models | Xiaotong Huang |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Xiaotong%20Huang.pdf)|
+| 05.23 | EXION: Exploiting Inter- and Intra-Iteration Output Sparsity for Diffusion Models | Yuge Chen |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/2025_0514_EXION_Exploiting_Output_Sparsity_for_Diffusion_Models.pdf)|
+| 06.06 | Prefix Sharing LLM Inference and SGLang | Yitong Ding |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar%20ppt%E4%B8%81%E4%B8%80%E6%A1%90.pdf)|
+| 06.13 | Ditto: Accelerating Diffusion Model via Temporal Value Similarity CMC: Video Transformer Acceleration via CODEC Assisted Matrix Condensing | Haosong Liu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Seminar6.12_%E5%88%98%E6%98%8A%E5%87%87.pdf)|
 
 
 
