@@ -29,21 +29,24 @@ Contributed by Weiming Hu
 
 #### MX Format
 
-| Conf.    | **Title**                                                    | **Key Words**                 |
-| -------- | ------------------------------------------------------------ | ----------------------------- |
-| arXiv'25 | SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training | MXFP, Attention               |
-| arXiv'25 | FGMP: Fine-Grained Mixed-Precision Weight and Activation Quantization for Hardware-Accelerated LLM Inference | MXFP, NVFP                    |
-| arXiv'24 | Nanoscaling Floating-Point (NxFP): NanoMantissa, Adaptive Microexponents, and Code Recycling for Direct-Cast Compression of Large Language Models | MXFP                          |
-| arXiv'24 | AMXFP4: Taming Activation Outliers with Asymmetric Microscaling Floating-Point for 4-bit LLM Inference | MXFP, Asymmetric quantization |
-| arXiv'24 | MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization | MXINT, MXFP, outlier          |
-| arXiv'24 | Post Training Quantization of Large Language Models with Microscaling Formats | MXINT                         |
-| arXiv'24 | Error Diffusion: Post Training Quantization with Block-Scaled Number Formats for Neural Networks | error compensation            |
-| arXiv'23 | A Dataflow Compiler for Efficient LLM Inference using Custom Microscaling Formats | code template                 |
-| ICLR'23  | Block and Subword-Scaling Floating-Point (BSFP) : An Efficient Non-Uniform Quantization For Low Precision Inference | BSFP                          |
-| ISCA'23  | With Shared Microexponents, A Little Shifting Goes a Long Way | MX-FP, two-level scaling      |
-| arXiv'23 | Microscaling Data Formats for Deep Learning                  | Explore MXFP4, 6, 8           |
-| HPCA'21  | FAST: DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding | BFP training                  |
-| NIPS'20  | Pushing the Limits of Narrow Precision Inferencing at Cloud Scale with Microsoft Floating Point | MSFP (BFP)                    |
+| Conf.    | **Title**                                                    | **Key Words**                   |
+| -------- | ------------------------------------------------------------ | ------------------------------- |
+| arXiv'25 | Recipes for Pre-training LLMs with MXFP8                     | MXFP8, NVIDIA                   |
+| arXiv'25 | Characterization and Mitigation of Training Instabilities in Microscaling Formats |                                 |
+| arXiv'25 | SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training | MXFP, Attention                 |
+| ICML'25  | BlockDialect: Block-wise Fine-grained Mixed Format Quantization for Energy-Efficient LLM Inference | MXFP, adaptive codebook/dialect |
+| arXiv'25 | FGMP: Fine-Grained Mixed-Precision Weight and Activation Quantization for Hardware-Accelerated LLM Inference | MXFP, NVFP                      |
+| arXiv'24 | Nanoscaling Floating-Point (NxFP): NanoMantissa, Adaptive Microexponents, and Code Recycling for Direct-Cast Compression of Large Language Models | MXFP                            |
+| arXiv'24 | AMXFP4: Taming Activation Outliers with Asymmetric Microscaling Floating-Point for 4-bit LLM Inference | MXFP, Asymmetric quantization   |
+| arXiv'24 | MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization | MXINT, MXFP, outlier            |
+| arXiv'24 | Post Training Quantization of Large Language Models with Microscaling Formats | MXINT                           |
+| arXiv'24 | Error Diffusion: Post Training Quantization with Block-Scaled Number Formats for Neural Networks | error compensation              |
+| arXiv'23 | A Dataflow Compiler for Efficient LLM Inference using Custom Microscaling Formats | code template                   |
+| ICLR'23  | Block and Subword-Scaling Floating-Point (BSFP) : An Efficient Non-Uniform Quantization For Low Precision Inference | BSFP                            |
+| ISCA'23  | With Shared Microexponents, A Little Shifting Goes a Long Way | MX-FP, two-level scaling        |
+| arXiv'23 | Microscaling Data Formats for Deep Learning                  | Explore MXFP4, 6, 8             |
+| HPCA'21  | FAST: DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding | BFP training                    |
+| NIPS'20  | Pushing the Limits of Narrow Precision Inferencing at Cloud Scale with Microsoft Floating Point | MSFP (BFP)                      |
 
 #### Quantization Accelerator / Arch.
 
