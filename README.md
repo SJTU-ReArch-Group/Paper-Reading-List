@@ -137,6 +137,8 @@ Seminars
 | 05.30 | Modern Programming Model for Writing Kernels on GPUs | Xinhao Luo |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/5.30.pdf)|
 | 06.06 | Prefix Sharing LLM Inference and SGLang | Yitong Ding |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar%20ppt%E4%B8%81%E4%B8%80%E6%A1%90.pdf)|
 | 06.13 | Ditto: Accelerating Diffusion Model via Temporal Value Similarity CMC: Video Transformer Acceleration via CODEC Assisted Matrix Condensing | Haosong Liu |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/Seminar6.12_%E5%88%98%E6%98%8A%E5%87%87.pdf)|
+| 06.27 | Speeding up LLM and GEMM | Wenxuan Miao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar6.27.pdf)|
+
 
 
 
