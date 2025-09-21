@@ -141,7 +141,11 @@ Seminars
 | 07.25 | Modeling and Simulation | Weiming Hu |[Slides](./Slides/2025-07-25-Modeling-and-Simulation-WeimingHu.pdf)|
 
 
+### Fall 2025
 
+| Date  | Paper Title                       | Presenter   | Notes                                                        |
+| ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
+| 09.18 | Fine Grained Comm Comp Overlap    | Ziyu Huang  | [Slides](./Slides/0918-组会汇报.pptx)                           |
 
 
 DNN Architecture
