@@ -18,3 +18,10 @@ Contributed by ziyu huang
     * tile-centric fine grain comm might decrease efficiency, we used several waves as a granularity.
  
 
+| | tile swizzle                             | granularity         | pingpong within CTA | sync                           |
+|---------|---------------------------------|---------------------|----------------------|--------------------------------|
+| triton-distributed                       | yes (for overlap)   | tile                 | no                             |
+| flashoverlap                              | yes (for continuous comm) | waves           | no                             |
+| FLUX                                      | yes (for avoiding contention) | tile          | no                             |
+| SC                                        | no                  | WG                   | no                             |
+| Comments                                 | Matching the computation order and communication order | Cutting too small leads to large startup overhead; cutting too large leads to more bubble overlap | Fine-grained kernel fusion, which may improve resource utilization but could also decrease gemm performance | Is the overhead large? Is there global synchronization? Is fine-grained synchronization done well? |
