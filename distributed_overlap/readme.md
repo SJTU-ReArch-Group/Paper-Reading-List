@@ -16,8 +16,12 @@ Contributed by ziyu huang
 * **Info:**
     * [无问芯穹计算通信重叠新范式——FlashOverlap技术解析 - 李秀红的文章 - 知乎](https://zhuanlan.zhihu.com/p/1897633068380054002)
     * tile-centric fine grain comm might decrease efficiency, we used several waves as a granularity.
- 
 
+ ### FLUX: Fast Software-based Communication Overlap On GPUs Through Kernel Fusion
+* **Source:** arxiv
+* **Info:**
+   * triton-distributed said: "FLUX fuses the scatter operation into GEMM kernel and performs a global synchronization before local reduction."
+  
 | | tile swizzle                             | granularity         | pingpong within CTA | sync                           |
 |---------|---------------------------------|---------------------|----------------------|--------------------------------|
 | triton-distributed                       | yes (for overlap)   | tile                 | no                             |
