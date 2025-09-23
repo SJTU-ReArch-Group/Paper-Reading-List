@@ -21,11 +21,19 @@ Contributed by ziyu huang
 * **Source:** arxiv
 * **Info:**
    * triton-distributed said: "FLUX fuses the scatter operation into GEMM kernel and performs a global synchronization before local reduction."
+
+### Optimizing Distributed ML Communication with Fused Computation-Collective Operations
+* **Source:** SC24
+* **Info:**
+   * Fusing comm as epilogue following gemm, like FLUX
+   * intra GPU: gather multiple tiles' result as "slice" like FlashOverlap
+   * inter GPU: AMD's ROC_SHMEM
+
   
-| | tile swizzle                             | granularity         | pingpong within CTA | sync                           |
-|---------|---------------------------------|---------------------|----------------------|--------------------------------|
-| triton-distributed                       | yes (for overlap)   | tile                 | no                             |
-| flashoverlap                              | yes (for continuous comm) | waves           | no                             |
-| FLUX                                      | yes (for avoiding contention) | tile          | no                             |
-| SC                                        | no                  | WG                   | no                             |
-| Comments                                 | Matching the computation order and communication order | Cutting too small leads to large startup overhead; cutting too large leads to more bubble overlap | Fine-grained kernel fusion, which may improve resource utilization but could also decrease gemm performance | Is the overhead large? Is there global synchronization? Is fine-grained synchronization done well? |
+| | tile swizzle                             | granularity         | pingpong within CTA | sync                           |  senario |
+|---------|---------------------------------|---------------------|----------------------|--------------------------------|--------------------------------|
+| triton-distributed                       | yes (for overlap)   | tile                 | no|tile2tile                             | training/decoding |
+| flashoverlap                              | yes (for continuous comm) | waves           | no|waves2waves(separate signal kernel)  | especially pcie |
+| FLUX                                      | yes (for avoiding contention) | tile          | no| tile2tile                             | small m performs bad |
+| SC                                        | no                  | WG                   |no| slice2slice(fused single kernel)  | DLRM, MoE, gemv  |
+| Comments                                 | Matching the computation order and communication order | Cutting too small leads to large startup overhead; cutting too large leads to more bubble overlap | Fine-grained kernel fusion, which may improve resource utilization but could also decrease gemm performance | Is the overhead large? Is there global synchronization? Is fine-grained synchronization done well? | mostly focus on MLP....|
