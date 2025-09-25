@@ -35,7 +35,21 @@ Contributed by ziyu huang
    * [TokenWeave(arxiv25)：粗粒度通信计算重叠 - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1953844427287142621)
    * find the fact that FLUX, tilelink performs bad when m is small
    * Previous work focus on MLP. Maybe I can try try attention? E2E? Training?
-  
+
+
+### FlashCommunication V2: Bit Splitting and Spike Reserving for Any Bit Communication
+* **Source:** arxiv
+* **Info:**
+   * Relevant Scenarios: Distributed Training: All-Reduce for Tensor Parallelism (TP); All-to-All for Mixture of Experts (MoE).
+      Inference/Deployment: KV cache transfer in systems with pre-fill/decode separation.
+   * Hierarchical Communication due to NUMA Architecture:
+      A common communication pipeline is: Intra-NUMA Reduce-Scatter (RS) -> Inter-NUMA All-Reduce (AR) -> Intra-NUMA All-Gather (AG). (A key question is how to optimize this pipeline.)
+   * hierarchy comm introduced by NUMA: intra numa RS->inter numa AR->intra numa AG(how can I optimize this pipeline?)
+   * PCIE cluster is also common, like L20, L40
+
+
+
+
 |                       | tile swizzle              | granularity| pingpong within CTA | sync                 |  senario(small m?) |
 |-----------------------|---------------------------|-------|----------------------|--------------------------|--------------------------------|
 | triton-distributed    | yes (for overlap)         | tile        | no | tile2tile                            | training/decoding, small m using flash decoding|
