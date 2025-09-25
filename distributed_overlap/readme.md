@@ -47,8 +47,10 @@ Contributed by ziyu huang
    * hierarchy comm introduced by NUMA: intra numa RS->inter numa AR->intra numa AG(how can I optimize this pipeline?)
    * PCIE cluster is also common, like L20, L40
 
-
-
+### Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling
+* **Source:** SOSP25
+* **Info:**
+   * Considered memory... Maybe I can introduce comp and comm?
 
 |                       | tile swizzle              | granularity| pingpong within CTA | sync                 |  senario(small m?) |
 |-----------------------|---------------------------|-------|----------------------|--------------------------|--------------------------------|
