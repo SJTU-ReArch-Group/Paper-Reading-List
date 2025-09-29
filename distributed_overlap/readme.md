@@ -73,6 +73,15 @@ Contributed by ziyu huang
    * search space: FLUX(kind of weak?)
  
 ## MOE work
+### FlashDMoE: Fast Distributed MoE in a Single Kernel
+### Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
+### Tutel: Adaptive mixture-of-experts at scale
+### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
+### Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion
+### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
+### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
+### ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
+
 
 |                       | tile swizzle              | granularity| WG spec | SM spec | sync                 |  senario(small m?) |
 |-----------------------|---------------------------|------------|---------|---------|--------------------------|--------------------------------|
