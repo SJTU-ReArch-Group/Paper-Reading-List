@@ -3,6 +3,7 @@ Papers
 
 Contributed by ziyu huang
 
+## handwritten work
 ### Triton-distributed: Programming Overlapping Kernels on Distributed AI Systems with the Triton Compiler
 
 * **Source:** arxiv
@@ -47,10 +48,31 @@ Contributed by ziyu huang
    * hierarchy comm introduced by NUMA: intra numa RS->inter numa AR->intra numa AG(how can I optimize this pipeline?)
    * PCIE cluster is also common, like L20, L40
 
+### How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service
+* **Source:** SOSP25
+* **Info:**
+   * This is an OS level work. We should view "copy" as a OS level service, but not a user function.
+   * Can use SIMD and DMA at the same time. (previous function view can not)
+   * Operate copy in a global view(absorb redundant copy/boost the priority of some copies)
+   * Maybe useful for dynamic situation like... MOE?
+     
+## compiler work
 ### Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling
 * **Source:** SOSP25
 * **Info:**
    * Considered memory... Maybe I can introduce comp and comm?
+   * basically focus on attn
+   * search space: ring attn, tree attn, loong train
+ 
+### TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives
+* **Source:** MLSYS25
+* **Info:**
+   * search space: tile size; comp/comm order; resource binding
+   * primitive: data sending, signal sending
+   * basically focus on TP(gemm+comm)
+   * search space: FLUX(kind of weak?)
+ 
+## MOE work
 
 |                       | tile swizzle              | granularity| WG spec | SM spec | sync                 |  senario(small m?) |
 |-----------------------|---------------------------|------------|---------|---------|--------------------------|--------------------------------|
