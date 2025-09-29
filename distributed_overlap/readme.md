@@ -78,6 +78,11 @@ Contributed by ziyu huang
 ### Tutel: Adaptive mixture-of-experts at scale
 ### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
 ### Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion
+* **Source:** PPoPP25
+* **Info:**
+   * [论文阅读笔记：ccfuser(PPoPP25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956101225532600662)
+
+
 ### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
 ### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
 ### ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
