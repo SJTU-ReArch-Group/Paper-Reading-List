@@ -85,9 +85,13 @@ Contributed by ziyu huang
 * **Source:** mlsys23
 * **Info:**
    * [微软亚洲研究院发布高性能 MoE 库 Tutel 你如何看待？ - 方佳瑞的回答 - 知乎](https://www.zhihu.com/question/502116776/answer/3191238455)
-   * each iteration 
- 
+   * The optimal parallel strategy(DP/PP/TP/EP) for one moe layer 
 
+### Toward Cost-Efficient Serving of Mixture-of-Experts with Asynchrony
+* **Source:** arxiv25
+* **Info:**
+   * [论文阅读笔记：AEP(arxiv25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956451131858325815)
+   * fine grained layer sync
 
 
 ### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
