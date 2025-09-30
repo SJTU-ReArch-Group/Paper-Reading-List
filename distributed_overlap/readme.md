@@ -81,8 +81,15 @@ Contributed by ziyu huang
    * Split batch to overlap attn and all2all-moe
 
 
-
 ### Tutel: Adaptive mixture-of-experts at scale
+* **Source:** mlsys23
+* **Info:**
+   * [微软亚洲研究院发布高性能 MoE 库 Tutel 你如何看待？ - 方佳瑞的回答 - 知乎](https://www.zhihu.com/question/502116776/answer/3191238455)
+   * each iteration 
+ 
+
+
+
 ### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
 ### Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion
 * **Source:** PPoPP25
