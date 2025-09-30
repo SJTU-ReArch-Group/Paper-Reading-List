@@ -96,11 +96,16 @@ Contributed by ziyu huang
    * fine grained layer sync
 
 
-### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
+### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale & A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
+* **Source:** PMLR22 & ICS23
+* **Info:**
+   * attention(TP)+MOE(EP), exist some redundant comm....
+
 ### Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion
 * **Source:** PPoPP25
 * **Info:**
    * [论文阅读笔记：ccfuser(PPoPP25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956101225532600662)
+   * tile wise overlap local comp & remote comm
 
 
 ### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
