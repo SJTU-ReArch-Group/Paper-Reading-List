@@ -39,7 +39,7 @@ Contributed by ziyu huang
 
 
 ### FlashCommunication V2: Bit Splitting and Spike Reserving for Any Bit Communication
-* **Source:** arxiv
+* **Source:** arxiv25
 * **Info:**
    * Relevant Scenarios: Distributed Training: All-Reduce for Tensor Parallelism (TP); All-to-All for Mixture of Experts (MoE).
       Inference/Deployment: KV cache transfer in systems with pre-fill/decode separation.
@@ -47,6 +47,8 @@ Contributed by ziyu huang
       A common communication pipeline is: Intra-NUMA Reduce-Scatter (RS) -> Inter-NUMA All-Reduce (AR) -> Intra-NUMA All-Gather (AG). (A key question is how to optimize this pipeline.)
    * hierarchy comm introduced by NUMA: intra numa RS->inter numa AR->intra numa AG(how can I optimize this pipeline?)
    * PCIE cluster is also common, like L20, L40
+   * [FlashCommunication V2(arxiv25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1954583327647446471)    
+
 
 ### How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service
 * **Source:** SOSP25
