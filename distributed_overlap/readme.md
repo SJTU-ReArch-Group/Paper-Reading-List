@@ -111,6 +111,12 @@ Contributed by ziyu huang
 ### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
 ### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
 ### ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
+* **Source:** eurosys24
+* **Info:**
+   * [ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling——论文泛读 - 妙BOOK言的文章 - 知乎](https://zhuanlan.zhihu.com/p/707614012)
+   * Three designs: a. portable EP modules. b. optimal comp/comm schedule design.(good direction!) c. inter/intra node A2A(triton-distributed also has this)
+
+
 
 
 |                       | tile swizzle              | granularity| WG spec | SM spec | sync                 |  senario(small m?) |
