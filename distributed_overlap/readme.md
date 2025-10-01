@@ -73,6 +73,17 @@ Contributed by ziyu huang
    * primitive: data sending, signal sending
    * basically focus on TP(gemm+comm)
    * search space: FLUX(kind of weak?)
+
+
+|                       | tile swizzle              | granularity| WG spec | SM spec | sync                 |  senario(small m?) |
+|-----------------------|---------------------------|------------|---------|---------|--------------------------|--------------------------------|
+| triton-distributed    | yes (for overlap)         | tile        | no     |   yes   | tile2tile                            | training/decoding, small m using flash decoding|
+| flashoverlap          | yes (for continuous comm) | waves       | no     |   yes   |  waves2waves(separate signal kernel)   | especially pcie, avoid small m |
+| FLUX                  | yes (for avoiding contention) | tile    | no     |   no    | tile2tile                            | small m performs bad |
+| SC                    | no                        | WG          | no     |   no    | slice2slice(fused single kernel)     | DLRM, MoE, gemv  |
+| TokenWeave            | no                        | waves       | no     |   yes   | cuda stream sync                     | small m performs well because "less wave quantization; coarse grain comm" |
+| Comments                                 | Matching the computation order and communication order(new opti chances introduced by NVSHMEM) | Cutting too small leads to large startup overhead; cutting too large leads to more bubble overlap | Fine-grained kernel fusion, which may improve resource utilization but could also decrease gemm performance | Is the overhead large? Is there global synchronization? Is fine-grained synchronization done well? | mostly focus on MLP.... when m is small: tile-wise comm increases comm latency, small block number reduces overlap |
+
  
 ## MOE work
 ### FlashDMoE: Fast Distributed MoE in a Single Kernel
@@ -117,13 +128,6 @@ Contributed by ziyu huang
    * Three designs: a. portable EP modules. b. optimal comp/comm schedule design.(good direction!) c. inter/intra node A2A(triton-distributed also has this)
 
 
-
-
-|                       | tile swizzle              | granularity| WG spec | SM spec | sync                 |  senario(small m?) |
-|-----------------------|---------------------------|------------|---------|---------|--------------------------|--------------------------------|
-| triton-distributed    | yes (for overlap)         | tile        | no     |   yes   | tile2tile                            | training/decoding, small m using flash decoding|
-| flashoverlap          | yes (for continuous comm) | waves       | no     |   yes   |  waves2waves(separate signal kernel)   | especially pcie, avoid small m |
-| FLUX                  | yes (for avoiding contention) | tile    | no     |   no    | tile2tile                            | small m performs bad |
-| SC                    | no                        | WG          | no     |   no    | slice2slice(fused single kernel)     | DLRM, MoE, gemv  |
-| TokenWeave            | no                        | waves       | no     |   yes   | cuda stream sync                     | small m performs well because "less wave quantization; coarse grain comm" |
-| Comments                                 | Matching the computation order and communication order(new opti chances introduced by NVSHMEM) | Cutting too small leads to large startup overhead; cutting too large leads to more bubble overlap | Fine-grained kernel fusion, which may improve resource utilization but could also decrease gemm performance | Is the overhead large? Is there global synchronization? Is fine-grained synchronization done well? | mostly focus on MLP.... when m is small: tile-wise comm increases comm latency, small block number reduces overlap |
+|          | comm overlap |  expert placement |
+|----------|--------------|-------------------|
+| tutel    | split token to form pipeline | auto changing TP/EP |
