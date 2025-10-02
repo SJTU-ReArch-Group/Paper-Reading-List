@@ -146,6 +146,18 @@ Contributed by ziyu huang
 * **Info:**
    * How to schedule AR and A2A? Overlap will prolong both. lina proposes split tensors(fixed as 30MB, not smart) to separate AR and A2A, and overlap A2A with expert-comp.
 
+### PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining
+* **Source:** INFOCOM 2023
+* **Info:**
+   * To overlap comm/comp, how deep should we split the batch? This paper proposes a cost model..(Seems not very valuable?)
+ 
+### Optimizing Mixture-of-Experts Inference Time Combining Model Deployment and Communication Scheduling
+* **Source:** arxiv25
+* **Info:**
+   * consider expert assignment & comm schedule together
+   * but the hardware is strange... heterogeneous/homogeneous cluster... in inference?
+   * locate two models in one GPU to overlap comm/comp
+
 |          | comm overlap |  expert placement |
 |----------|--------------|-------------------|
 | tutel    | split token to form pipeline | auto changing TP/EP |
