@@ -144,7 +144,7 @@ Contributed by ziyu huang
 ### Accelerating Distributed MoE Training and Inference with Lina
 * **Source:** atc23
 * **Info:**
-   * old paper...ignore displaced parallel, and come to conclusion that A2A should prior to AR
+   * How to schedule AR and A2A? Overlap will prolong both. lina proposes split tensors(fixed as 30MB, not smart) to separate AR and A2A, and overlap A2A with expert-comp.
 
 |          | comm overlap |  expert placement |
 |----------|--------------|-------------------|
