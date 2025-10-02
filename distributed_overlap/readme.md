@@ -87,25 +87,36 @@ Contributed by ziyu huang
  
 ## MOE work
 ### FlashDMoE: Fast Distributed MoE in a Single Kernel
+* **Source:** arxiv25
+* **Info:**
+   * [FlashDMoE：分布式 MoE 执行范式的变革 - mlsys小登的文章 - 知乎](https://zhuanlan.zhihu.com/p/1930765288657383428)
+   * fuse all op in MOE
+   * propose one OS block to schedule comp/comm overlap. But do not analyze in detailed here. (ccfuser is more precise)
 
+   
 ### Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
 * **Source:** MLSYS24
 * **Info:**
    * [【论文精读】Lancet: Accelerating Mixture-of-Experts Training via Whole Graph Computation-Communication - 娶个敏感词的文章 - 知乎](https://zhuanlan.zhihu.com/p/10557576327)
-   * backward weight update can overlap a2a
-   * forward attn can overlap moe-a2a
+   * backward weight update can overlap a2a (no dependency)
+   * forward attn can overlap moe-a2a (has dependency, but can split batch to form parallelism)
 
 ### Tutel: Adaptive mixture-of-experts at scale
 * **Source:** mlsys23
 * **Info:**
    * [微软亚洲研究院发布高性能 MoE 库 Tutel 你如何看待？ - 方佳瑞的回答 - 知乎](https://www.zhihu.com/question/502116776/answer/3191238455)
-   * The optimal parallel strategy(DP/PP/TP/EP) for one moe layer 
+   * [论文阅读笔记：tutel(mlsys23) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956822528807899482)
+   * different token number has an optimal parallel strategy(DP/PP/EP), so we dynamically change strategy and overlap comm with comp(strange idea!)
+   * do not theoretically analyze which token number match a strategy, just use experiment to test!
+
+### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
 
 ### Toward Cost-Efficient Serving of Mixture-of-Experts with Asynchrony
 * **Source:** arxiv25
 * **Info:**
    * [论文阅读笔记：AEP(arxiv25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956451131858325815)
-   * fine grained layer sync
+   * a2a is a sync op, but actually after one token finishes topk, it can continue, therefore a2a become async.
+   * This work extend comet to multiple layers(attn/moe)
 
 ### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale & A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
 * **Source:** PMLR22 & ICS23
@@ -120,7 +131,7 @@ Contributed by ziyu huang
 
 
 ### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
-### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
+
 ### ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
 * **Source:** eurosys24
 * **Info:**
