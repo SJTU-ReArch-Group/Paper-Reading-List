@@ -110,6 +110,11 @@ Contributed by ziyu huang
    * do not theoretically analyze which token number match a strategy, just use experiment to test!
 
 ### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
+* **Source:** mlsys25
+* **Info:**
+   * [论文阅读笔记：COMET(MLSYS25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1893037252499711420)
+   * async all2all
+
 
 ### Toward Cost-Efficient Serving of Mixture-of-Experts with Asynchrony
 * **Source:** arxiv25
@@ -118,7 +123,8 @@ Contributed by ziyu huang
    * a2a is a sync op, but actually after one token finishes topk, it can continue, therefore a2a become async.
    * This work extend comet to multiple layers(attn/moe)
 
-### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale & A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
+### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
+### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training(deepspeed-ted)
 * **Source:** PMLR22 & ICS23
 * **Info:**
    * attention(TP)+MOE(EP), exist some redundant comm....
@@ -129,15 +135,16 @@ Contributed by ziyu huang
    * [论文阅读笔记：ccfuser(PPoPP25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956101225532600662)
    * tile wise overlap local comp & remote comm
 
-
-### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
-
 ### ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
 * **Source:** eurosys24
 * **Info:**
    * [ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling——论文泛读 - 妙BOOK言的文章 - 知乎](https://zhuanlan.zhihu.com/p/707614012)
    * Three designs: a. portable EP modules. b. optimal comp/comm schedule design.(good direction!) c. inter/intra node A2A(triton-distributed also has this)
 
+### Accelerating Distributed MoE Training and Inference with Lina
+* **Source:** atc23
+* **Info:**
+   * old paper...ignore displaced parallel, and come to conclusion that A2A should prior to AR
 
 |          | comm overlap |  expert placement |
 |----------|--------------|-------------------|
