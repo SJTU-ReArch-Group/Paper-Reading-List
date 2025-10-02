@@ -87,11 +87,13 @@ Contributed by ziyu huang
  
 ## MOE work
 ### FlashDMoE: Fast Distributed MoE in a Single Kernel
+
 ### Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
 * **Source:** MLSYS24
 * **Info:**
    * [【论文精读】Lancet: Accelerating Mixture-of-Experts Training via Whole Graph Computation-Communication - 娶个敏感词的文章 - 知乎](https://zhuanlan.zhihu.com/p/10557576327)
-   * Split batch to overlap attn and all2all-moe
+   * backward weight update can overlap a2a
+   * forward attn can overlap moe-a2a
 
 
 ### Tutel: Adaptive mixture-of-experts at scale
