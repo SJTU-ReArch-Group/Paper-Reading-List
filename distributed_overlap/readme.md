@@ -63,8 +63,8 @@ Contributed by ziyu huang
 * **Source:** SOSP25
 * **Info:**
    * Considered memory... Maybe I can introduce comp and comm?
-   * basically focus on attn
-   * search space: ring attn, tree attn, loong train
+   * basically focus on attn/mlp
+   * search space: ring attn, tree attn, loong train, flux
  
 ### TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives
 * **Source:** MLSYS25
@@ -95,7 +95,6 @@ Contributed by ziyu huang
    * backward weight update can overlap a2a
    * forward attn can overlap moe-a2a
 
-
 ### Tutel: Adaptive mixture-of-experts at scale
 * **Source:** mlsys23
 * **Info:**
@@ -107,7 +106,6 @@ Contributed by ziyu huang
 * **Info:**
    * [论文阅读笔记：AEP(arxiv25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956451131858325815)
    * fine grained layer sync
-
 
 ### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale & A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
 * **Source:** PMLR22 & ICS23
