@@ -147,6 +147,7 @@ Seminars
 | Date  | Paper Title                       | Presenter   | Notes                                                        |
 | ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
 | 09.18 | Fine Grained Comm Comp Overlap    | Ziyu Huang  | [Slides](./Slides/0918-组会汇报.pptx)                           |
+| 09.26 | A Sample-Free Compilation Framework for Efficient Dynamic Tensor Computation    | Yangjie Zhou  | [Slides](./Slides/25.09.26-yjzhou-Helix.pdf)                           |
 
 
 DNN Architecture
