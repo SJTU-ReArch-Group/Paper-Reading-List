@@ -158,6 +158,7 @@ Contributed by ziyu huang
    * but the hardware is strange... heterogeneous/homogeneous cluster... in inference?
    * locate two models in one GPU to overlap comm/comp
 
-|          | comm overlap |  expert placement |
-|----------|--------------|-------------------|
-| tutel    | split token to form pipeline | auto changing TP/EP |
+### FlowMoE: A Scalable Pipeline Scheduling Framework for Distributed Mixture-of-Experts Training
+* **Source:** nips25
+* **Info:**
+   * overlap attn/moe. Full transformer block overlap!
