@@ -148,6 +148,7 @@ Seminars
 | ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
 | 09.18 | Fine Grained Comm Comp Overlap    | Ziyu Huang  | [Slides](./Slides/0918-组会汇报.pptx)                           |
 | 09.26 | A Sample-Free Compilation Framework for Efficient Dynamic Tensor Computation    | Yangjie Zhou  | [Slides](./Slides/25.09.26-yjzhou-Helix.pdf)                           |
+| 10.17 | Hydra: Harnessing Expert Popularity for EfficientMixture-of-Expert Inference on Chiplet System  | Gonglin Xu  | [Slides](./Slides/2025-10-17-xgl.pptx)                           |
 | 10.24 | LLM for cuda codegen    | Ma Xing  | [Slides](./Slides/maxing_组会_10_24_1.pptx)                           |
 
 
