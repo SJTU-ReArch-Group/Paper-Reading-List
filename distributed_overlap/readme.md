@@ -166,8 +166,10 @@ Contributed by ziyu huang
    * consider expert assignment & comm schedule together
    * but the hardware is strange... heterogeneous/homogeneous cluster... in inference?
    * locate two models in one GPU to overlap comm/comp
+   * Baseline: tutel; fastermoe
 
 ### FlowMoE: A Scalable Pipeline Scheduling Framework for Distributed Mixture-of-Experts Training
 * **Source:** nips25
 * **Info:**
    * overlap attn/moe. Full transformer block overlap!
+   * BaselineL: Tutel
