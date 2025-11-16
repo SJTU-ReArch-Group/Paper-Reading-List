@@ -93,6 +93,7 @@ Contributed by ziyu huang
    * fuse all op in MOE
    * propose one OS block to schedule comp/comm overlap. 
    * Baseline: Comet; FasterMOE; Megatron-TE; Megtron-cutlass (https://github.com/nvidia/megatron-lm/issues/1721)
+   * Workload: Synthedic
    
 ### Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
 * **Source:** MLSYS24
@@ -101,6 +102,7 @@ Contributed by ziyu huang
    * backward weight update can overlap a2a (no dependency)
    * forward attn can overlap moe-a2a (comm overlap with before/after attn)
    * Baselines: Deepspeed; tutel
+   * Workload: GPT2-S-MoE; GPT2-L-MoE
 <img width="847" height="588" alt="image" src="https://github.com/user-attachments/assets/3010c92a-7f4c-4862-8c37-8bb9347ad17d" />
 <img width="858" height="636" alt="image" src="https://github.com/user-attachments/assets/e95ac996-41eb-4959-b044-2442b7738068" />
 
@@ -112,6 +114,7 @@ Contributed by ziyu huang
    * different token number has an optimal parallel strategy(DP/PP/EP), so we dynamically change strategy and overlap comm with comp(strange idea!)
    * do not theoretically analyze which token number match a strategy, just use experiment to test!
    * Baseline: Deepspeed
+   * Workload: Synthetic
 
 ### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
 * **Source:** mlsys25
