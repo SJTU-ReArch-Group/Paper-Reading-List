@@ -151,7 +151,7 @@ Contributed by ziyu huang
 * **Source:** eurosys24
 * **Info:**
    * [ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling——论文泛读 - 妙BOOK言的文章 - 知乎](https://zhuanlan.zhihu.com/p/707614012)
-   * Three designs: a. portable EP modules. b. optimal comp/comm schedule design.(good direction!) c. inter/intra node A2A(triton-distributed also has this)
+   * Three designs: a. portable EP modules. b. optimal comp/comm schedule design.(But fix the split num) c. inter/intra node A2A(triton-distributed also has this)
    * Baseline: FasterMOE; Tutel
 
 ### Accelerating Distributed MoE Training and Inference with Lina
