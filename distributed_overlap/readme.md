@@ -93,7 +93,7 @@ Contributed by ziyu huang
    * fuse all op in MOE
    * propose one OS block to schedule comp/comm overlap. 
    * Baseline: Comet; FasterMOE; Megatron-TE; Megtron-cutlass (https://github.com/nvidia/megatron-lm/issues/1721)
-   * Workload: Synthetic
+   * Workload: Synthetic. All experiments use MoE transformer models configured with 16 attention heads, an embedding dimension of 2048, and an FFN intermediate size of 2048. We use top-2 routing with a capacity factor of 1.0.
    
 ### Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
 * **Source:** MLSYS24
@@ -114,7 +114,7 @@ Contributed by ziyu huang
    * different token number has an optimal parallel strategy(DP/PP/EP), so we dynamically change strategy and overlap comm with comp(strange idea!)
    * do not theoretically analyze which token number match a strategy, just use experiment to test!
    * Baseline: Deepspeed
-   * Workload: Synthetic
+   * Workload: Synthetic. We test all combinations of MoE model configurations within: Eg ∈{0.5, 1, 2}, D ∈ {1024, 2048, 4096}, H ∈ {1024, 2048, 4096}, and tokens/step ∈ {4096, 16384, 65536}.
 
 ### Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
 * **Source:** mlsys25
@@ -124,6 +124,7 @@ Contributed by ziyu huang
    * Async MOE layer0 and layer1: for layer0, first compute local data, and comm remote data asyncly; for layer1, if first Tn column finishes, execute TopK and combine at once. 
    * docs/moe_usage.md
    * Baseline: Megatron-TE, Megatron-cutlass, fastermoe, tutel
+   * Workload: Mixtral8x7B, Qwen2-MoE and Phi3.5-MoE
 
 
 ### Toward Cost-Efficient Serving of Mixture-of-Experts with Asynchrony
@@ -133,6 +134,7 @@ Contributed by ziyu huang
    * a2a is a sync op, but actually after one token finishes topk, it can continue, therefore a2a become async.
    * This work extend comet to multiple layers(attn/moe)
    * Baseline: SGLang
+   * Workload: Mixtral 8x7B, • Short: input [30, 70], output [70, 130] • Medium: input [50, 150], output [50, 250] • Reasonable: input [100, 300], output [100, 500]
 
 ### DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
 ### A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training(deepspeed-ted)
@@ -146,6 +148,12 @@ Contributed by ziyu huang
    * [论文阅读笔记：ccfuser(PPoPP25) - Arsmart的文章 - 知乎](https://zhuanlan.zhihu.com/p/1956101225532600662)
    * tile wise overlap local comp & remote comm
    * Baseline: Fastmoe, fastermoe
+   * Workload: as below (seems very strange....)
+| model | Batch size | Seq len | Model dim | Moe block | Total block | Expert num |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| M-GPT | 8 | 1024 | 768 | 1 | 12 | 64 |
+| M-BERT | 32 | 512 | 768 | 4 | 12 | 64 |
+| M-Trans-xl | 16 | 512 | 512 | 12 | 12 | 64 |
 
 ### ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
 * **Source:** eurosys24
@@ -153,11 +161,23 @@ Contributed by ziyu huang
    * [ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling——论文泛读 - 妙BOOK言的文章 - 知乎](https://zhuanlan.zhihu.com/p/707614012)
    * Three designs: a. portable EP modules. b. optimal comp/comm schedule design.(But fix the split num) c. inter/intra node A2A(triton-distributed also has this)
    * Baseline: FasterMOE; Tutel
+| MoE Name | Base Model | # Params (Attention) | # Params (MoE) | Dataset | f | B | L | H | M | k | E |
+| :--- | :--- | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Transformer-MoE | Transformer | 90M | 403M | wmt14_en_fr | 1.0 | - | - | 2048 | 512 | 1 | 8 |
+| GPT2-Tiny-MoE | GPT2-Tiny | 32M | 1M | wikitext-103 | 1.0 | 4 | 256 | 64 | 64 | 2 | 32 |
+| CT-MoE | CusTransformer | 97M | 403M | wmt14_en_fr | 1.0 | 136 | 31 | 512 | 512 | 1 | 32 |
+| BERT-Large-MoE | BERT-Large | 139M | 6442M | bookcorpus | 1.0 | 1 | 4096 | 1024 | 1 | 32 | 32 |
 
 ### Accelerating Distributed MoE Training and Inference with Lina
 * **Source:** atc23
 * **Info:**
    * How to schedule AR and A2A? Overlap will prolong both. lina proposes split tensors(fixed as 30MB, not smart) to separate AR and A2A, and overlap A2A with expert-comp.
+   * Workload: Training: • Transformer-XL [20]: a 24-layer encoder model.
+• BERT2GPT2 [49]: a 12-layer encoder-decoder model.
+• GPT-2 [39]: a 12-layer decoder model.
+   Inference: • Transformer-XL [20]: The inference task is text generation
+with Enwik8 [3] test set.
+• BERT-Large [21]: a 12-layer decoder model. The inference task is translation using WMT En-De [8] test set. All FFN layers in these models are converted to MoE layers. We vary the number of experts in an MoE layer from 2, 4, 8, to 16. We adopt top-2 gating in training and top-1 gating in inference following [23], i.e. k = 2 in training and k = 1 in inference
 
 ### PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining
 * **Source:** INFOCOM 2023
@@ -177,3 +197,4 @@ Contributed by ziyu huang
 * **Info:**
    * overlap attn/moe. Full transformer block overlap!
    * BaselineL: Tutel
+   * GPT2-Tiny-MoE and DeepSeek-V2 [39] for the language modeling task on the OpenWebText dataset [40], and BERT-Large-MoE and LLaMA2-MoE for the text generation task on the wikitext-103 dataset [41]. We replace all feed-forward layers in GPT2-Tiny [42], BERT-Large [43], and LLaMA2 [44] with MoE layers to construct MoE models.
