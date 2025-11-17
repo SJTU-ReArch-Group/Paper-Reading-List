@@ -93,7 +93,7 @@ Contributed by ziyu huang
    * fuse all op in MOE
    * propose one OS block to schedule comp/comm overlap. 
    * Baseline: Comet; FasterMOE; Megatron-TE; Megtron-cutlass (https://github.com/nvidia/megatron-lm/issues/1721)
-   * Workload: Synthedic
+   * Workload: Synthetic
    
 ### Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
 * **Source:** MLSYS24
