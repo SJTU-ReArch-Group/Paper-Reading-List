@@ -72,7 +72,8 @@ Contributed by ziyu huang
    * search space: tile size; comp/comm order; resource binding
    * primitive: data sending, signal sending
    * basically focus on TP(gemm+comm)
-   * search space: FLUX(kind of weak?)
+   * Baseline: FLUX(kind of weak?)
+   * Previous work: Overlap Communication with Dependent Computation via Decomposition
 
 
 |                       | tile swizzle              | granularity| WG spec | SM spec | sync                 |  senario(small m?) |
