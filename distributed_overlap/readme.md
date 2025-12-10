@@ -199,3 +199,9 @@ with Enwik8 [3] test set.
    * overlap attn/moe. Full transformer block overlap!
    * BaselineL: Tutel
    * GPT2-Tiny-MoE and DeepSeek-V2 [39] for the language modeling task on the OpenWebText dataset [40], and BERT-Large-MoE and LLaMA2-MoE for the text generation task on the wikitext-103 dataset [41]. We replace all feed-forward layers in GPT2-Tiny [42], BERT-Large [43], and LLaMA2 [44] with MoE layers to construct MoE models.
+
+
+     
+## Megakernel
+* [megakernel-throughput](https://hazyresearch.stanford.edu/blog/2025-09-28-tp-llama-main)
+* [megakernel-latency](https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles)
