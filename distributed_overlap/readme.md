@@ -205,3 +205,5 @@ with Enwik8 [3] test set.
 ## Megakernel
 * [megakernel-throughput](https://hazyresearch.stanford.edu/blog/2025-09-28-tp-llama-main)
 * [megakernel-latency](https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles)
+* [mega-MOE-kernel(named Alpha-MOE)](https://aleph-alpha.com/wp-content/uploads/Alpha-MoE_A-Megakernel-for-Faster-Tensor-Parallel-Inference_Report.pdf)
+  * github: https://github.com/Aleph-Alpha/Alpha-MoE/tree/main
