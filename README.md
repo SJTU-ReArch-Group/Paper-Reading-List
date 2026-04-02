@@ -158,7 +158,7 @@ Seminars
 
 | Date  | Paper Title                       | Presenter   | Notes                                                        |
 | ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
-| 03.06 | Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC    | Zhengyi Li  | [Slides](./Slides/（李正一）Breaking the Layer Barrier Remodeling Private Transformer Inference with Hybrid CKKS and MPC.pdf)                           |
+| 03.06 | Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC    | Zhengyi Li  | [Slides](./Slides/Breaking_the_Layer_Barrier_Remodeling_Private_Transformer_Inference_with_Hybrid_CKKS_and_MPC.pdf)                           |
 
 
 DNN Architecture
