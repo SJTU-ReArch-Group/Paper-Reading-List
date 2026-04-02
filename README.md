@@ -154,6 +154,12 @@ Seminars
 | 11.21 |  Survey of Vision-Language-Action (VLA) Models   | Zheng Liu | [Slides](./Slides/1121.pptx)                   |
 | 11.28 | Modern DSLs Compile Workflow    | Xinhao Luo  | [Slides](./Slides/2025.11.28.pdf)                           |
 
+### Spring 2026
+
+| Date  | Paper Title                       | Presenter   | Notes                                                        |
+| ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
+| 03.06 | Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC    | Zhengyi Li  | [Slides](./Slides/（李正一）Breaking the Layer Barrier Remodeling Private Transformer Inference with Hybrid CKKS and MPC.pdf)                           |
+
 
 DNN Architecture
 ----------------
