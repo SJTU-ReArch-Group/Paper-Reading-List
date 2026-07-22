@@ -141,7 +141,6 @@ Seminars
 | 06.27 | Speeding up LLM and GEMM | Wenxuan Miao |[Slides](https://github.com/SJTU-ReArch-Group/Paper-Reading-List/blob/main/Slides/seminar6.27.pdf)|
 | 07.25 | Modeling and Simulation | Weiming Hu |[Slides](./Slides/2025-07-25-Modeling-and-Simulation-WeimingHu.pdf)|
 
-
 ### Fall 2025
 
 | Date  | Paper Title                       | Presenter   | Notes                                                        |
@@ -161,6 +160,7 @@ Seminars
 | 03.06 | Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC    | Zhengyi Li  | [Slides](./Slides/Breaking_the_Layer_Barrier_Remodeling_Private_Transformer_Inference_with_Hybrid_CKKS_and_MPC.pdf)                           |
 | 03.13 | Where LLMs Fit, and Where We Still Matter | Yijia Diao | [Slides1](https://www.usenix.org/system/files/fast26_slides_liu-qingyuan.pdf), [Paper2](https://www.nature.com/articles/s41586-025-10097-9) |
 | 03.27 | GPU Profiling for Optimization | Wu Sun  | [Slides](./Slides/3.27_GPU_Profiling_for_Optimization_sunwu.pdf)                           |
+| 06.06 | From MHA to DSA: The Evolution of Attention Paradigms in Long-Context LLMs | Xiaotong Huang |[Slides](./Slides/seminar_kvcache_0606.pdf)|
 | 06.12 | Attention Quantization in Video Diffusion Models | Yuge Cheng  | [Slides](./Slides/Attention_Quantization_in_Video_Diffusion_Models.pdf)                           |
 | 07.03 | Sort-free 3dgs | He Zhu  | [Slides](./Slides/sort-free_3dgs.pdf)                           |
 | 07.17 | LLM for Kernel generation | Xinhao Luo  | [Slides](./Slides/7.17.pdf)                           |
