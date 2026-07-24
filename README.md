@@ -160,6 +160,7 @@ Seminars
 | 03.06 | Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC    | Zhengyi Li  | [Slides](./Slides/Breaking_the_Layer_Barrier_Remodeling_Private_Transformer_Inference_with_Hybrid_CKKS_and_MPC.pdf)                           |
 | 03.13 | Where LLMs Fit, and Where We Still Matter | Yijia Diao | [Slides1](https://www.usenix.org/system/files/fast26_slides_liu-qingyuan.pdf), [Paper2](https://www.nature.com/articles/s41586-025-10097-9) |
 | 03.27 | GPU Profiling for Optimization | Wu Sun  | [Slides](./Slides/3.27_GPU_Profiling_for_Optimization_sunwu.pdf)                           |
+| 05.08 | WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores | Liukun Yu |[Slides1](./Slides/slides-detailed-version.pdf),[Paper2](./Slides/论文分享.pdf)|
 | 05.14 | New Paradigms for KV Cache Reuse | Xing Ma |[Slides](./Slides/组会2026-5-14.pdf)|
 | 05.29 | 从 prompt 到 context 到 harness | Jiawei Huang |[Slides](./Slides/harness_slides_finalize.pdf)|
 | 06.06 | From MHA to DSA: The Evolution of Attention Paradigms in Long-Context LLMs | Xiaotong Huang |[Slides](./Slides/seminar_kvcache_0606.pdf)|
