@@ -169,7 +169,11 @@ Seminars
 | 07.17 | LLM for Kernel generation | Xinhao Luo  | [Slides](./Slides/7.17.pdf)                           |
 
 
+### Fall 2026
 
+| Date  | Paper Title                       | Presenter   | Notes                                                        |
+| ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
+| 10.09 | long video DiT kv cache quantization | Haosong Liu  | [Slides](./Slides/long_video_kv_cache_seminar_10.9.pdf)                           |
 
 DNN Architecture
 ----------------
