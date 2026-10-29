@@ -175,6 +175,7 @@ Seminars
 | ----- | --------------------------------- | ----------- | ------------------------------------------------------------ |
 | 10.09 | long video DiT kv cache quantization | Haosong Liu  | [Slides](./Slides/long_video_kv_cache_seminar_10.9.pdf)                           |
 | 10.22 | High Bandwidth Flash HBF | Yijia Diao | [Slides](https://1drv.ms/b/c/1515f4cb2fd61a52/IQAjdkkLIpBiRZt4e_WuN-QYAUkO1LhUUFOoG5Oi60V_mXM?e=IZD2aH) |
+| 10.29 | Determinism in LLM Inference and RL Training | Weiming Hu | [Slides](./Slides/2026-10-29-Determinism-in-LLM-Inference-and-RL-Training.pdf) |
 
 DNN Architecture
 ----------------
